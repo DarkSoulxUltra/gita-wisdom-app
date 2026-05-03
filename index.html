@@ -398,6 +398,33 @@
             padding: 2rem 0;
         }
 
+        .sync-container {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .sync-btn {
+            background: transparent;
+            border: 1px solid #475569;
+            color: #cbd5e1;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        
+        .sync-btn:hover {
+            background: #1e293b;
+            color: #fff;
+        }
+
     </style>
 </head>
 <body>
@@ -461,6 +488,14 @@
                 <ul class="analytics-list" id="analytics-list">
                     <!-- Stats injected here -->
                 </ul>
+                <div class="sync-container">
+                    <button class="sync-btn" id="export-btn">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Export
+                    </button>
+                    <button class="sync-btn" id="import-btn">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg> Import
+                    </button>
+                </div>
             </div>
         </section>
     </main>
@@ -507,6 +542,8 @@
         const revisitList = document.getElementById('revisit-list');
         const analyticsList = document.getElementById('analytics-list');
         const revisitCount = document.getElementById('revisit-count');
+        const exportBtn = document.getElementById('export-btn');
+        const importBtn = document.getElementById('import-btn');
 
         // Init App
         async function init() {
@@ -743,6 +780,46 @@
         function saveAnalytics() {
             localStorage.setItem('gita_mood_analytics', JSON.stringify(moodAnalytics));
         }
+
+        // Cross-device sync via JSON
+        exportBtn.addEventListener('click', () => {
+            const data = { readVerses, moodAnalytics };
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+            const downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", dataStr);
+            downloadAnchorNode.setAttribute("download", "gita_app_sync.json");
+            document.body.appendChild(downloadAnchorNode);
+            downloadAnchorNode.click();
+            downloadAnchorNode.remove();
+        });
+
+        importBtn.addEventListener('click', () => {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = 'application/json';
+            input.onchange = e => {
+                const file = e.target.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = event => {
+                    try {
+                        const data = JSON.parse(event.target.result);
+                        if (data.readVerses && data.moodAnalytics) {
+                            localStorage.setItem('gita_read_verses', JSON.stringify(data.readVerses));
+                            localStorage.setItem('gita_mood_analytics', JSON.stringify(data.moodAnalytics));
+                            alert("Data imported successfully! The page will now reload.");
+                            location.reload();
+                        } else {
+                            alert("Invalid data format.");
+                        }
+                    } catch (err) {
+                        alert("Error reading file.");
+                    }
+                };
+                reader.readAsText(file);
+            };
+            input.click();
+        });
 
         pullBtn.addEventListener('click', pullStrip);
 
