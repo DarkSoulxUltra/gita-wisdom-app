@@ -1,0 +1,810 @@
+[
+  {
+    "verse": "2.55",
+    "mood": "lonely",
+    "sanskrit": "श्री भगवानुवाच\n\nप्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान्।\n\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते।।2.55।।\n ",
+    "hindi": "।।2.55।। श्रीभगवान् बोले - हे पृथानन्दन ! जिस कालमें साधक मनोगत सम्पूर्ण कामनाओंका अच्छी तरह त्याग कर देता है और अपने-आपसे अपने-आपमें ही सन्तुष्ट रहता है, उस कालमें वह स्थितप्रज्ञ कहा जाता है।\n ",
+    "english": "The Lord said, \"When a man renounces all the desires of the mind and is content with himself, then he is said to possess firm wisdom.\"",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "2.56",
+    "mood": "anger",
+    "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः।\n\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते।।2.56।।\n ",
+    "hindi": "।।2.56।। दुःखोंकी प्राप्ति होनेपर जिसके मनमें उद्वेग नहीं होता और सुखोंकी प्राप्ति होनेपर जिसके मनमें स्पृहा नहीं होती तथा जो राग, भय और क्रोधसे सर्वथा रहित हो गया है, वह मननशील मनुष्य स्थिरबुद्धि कहा जाता है।\n ",
+    "english": "He whose mind is not perturbed by pain, who has no longing for pleasures, who is free from desire, fear, and anger—he is called a sage of firm wisdom.",
+    "example": "Pause before reacting in anger."
+  },
+  {
+    "verse": "2.57",
+    "mood": "happy",
+    "sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम्।\n\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता।।2.57।।\n ",
+    "hindi": "।।2.57।। सब जगह आसक्तिरहित हुआ जो मनुष्य उस-उस शुभ-अशुभको प्राप्त करके न तो अभिनन्दित होता है और न द्वेष करता है, उसकी बुद्धि प्रतिष्ठित है।\n ",
+    "english": "He who has no love on any side, who, upon finding good or evil, neither rejoices nor hates—his wisdom is firmly set.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.58",
+    "mood": "happy",
+    "sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः।\n\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता।।2.58।।\n ",
+    "hindi": "।।2.58।। जिस तरह कछुआ अपने अङ्गोंको सब ओरसे समेट लेता है, ऐसे ही जिस कालमें यह कर्मयोगी इन्द्रियोंके विषयोंसे इन्द्रियोंको सब प्रकारसे समेट लेता (हटा लेता) है, तब उसकी बुद्धि प्रतिष्ठित हो जाती है।\n ",
+    "english": "When one is able to draw their senses away from the objects of sense on all sides, like a tortoise draws in its limbs, then their wisdom is firmly established.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.59",
+    "mood": "lonely",
+    "sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः।\n\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते।।2.59।।\n ",
+    "hindi": "।।2.59।। निराहारी (इन्द्रियोंको विषयोंसे हटानेवाले) मनुष्यके भी विषय तो निवृत्त हो जाते हैं, पर रस निवृत्त नहीं होता। परन्तु इस स्थितप्रज्ञ मनुष्यका तो रस भी परमात्मतत्त्वका अनुभव होनेसे निवृत्त हो जाता है।\n ",
+    "english": "The objects of the senses, except for the pleasure they bring, turn away from the abstinent dweller in the body. Even the pleasure turns away from him when the Self, which is supreme over the senses, is seen.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "2.60",
+    "mood": "happy",
+    "sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः।\n\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः।।2.60।।\n ",
+    "hindi": "।।2.60।। हे कुन्तीनन्दन! (रसबुद्धि रहनेसे) यत्न करते हुए विद्वान् मनुष्यकी भी प्रमथनशील इन्द्रियाँ उसके मनको बलपूर्वक हर लेती हैं।\n ",
+    "english": "The turbulent senses, O Arjuna, can forcibly carry away the mind of even a wise man, though he is ever striving.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.61",
+    "mood": "happy",
+    "sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\n\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता।।2.61।।\n ",
+    "hindi": "।।2.61।। कर्मयोगी साधक उन सम्पूर्ण इन्द्रियोंको वशमें करके मेरे परायण होकर बैठे; क्योंकि जिसकी इन्द्रियाँ वशमें हैं, उसकी बुद्धि प्रतिष्ठित है।\n ",
+    "english": "Having controlled all the senses, let him remain in contemplation, regarding Me as supreme; for his knowledge is firmly established when his senses are under control.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.62",
+    "mood": "anger",
+    "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\n\nसङ्गात् संजायते कामः कामात्क्रोधोऽभिजायते।।2.62।।\n ",
+    "hindi": "।।2.62 -- 2.63।। विषयोंका चिन्तन करनेवाले मनुष्यकी उन विषयोंमें आसक्ति पैदा हो जाती है। आसक्तिसे कामना पैदा होती है। कामनासे क्रोध पैदा होता है। क्रोध होनेपर सम्मोह (मूढ़भाव) हो जाता है। सम्मोहसे स्मृति भ्रष्ट हो जाती है। स्मृति भ्रष्ट होनेपर बुद्धिका नाश हो जाता है। बुद्धिका नाश होनेपर मनुष्यका पतन हो जाता है।\n ",
+    "english": "To one who is thinking about sense-objects, attachment to them arises; from attachment arises desire, and from desire arises anger.",
+    "example": "Pause before reacting in anger."
+  },
+  {
+    "verse": "2.63",
+    "mood": "anger",
+    "sanskrit": "क्रोधाद्भवति संमोहः संमोहात्स्मृतिविभ्रमः।\n\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति।।2.63।।\n ",
+    "hindi": "।।2.62 -- 2.63।। विषयोंका चिन्तन करनेवाले मनुष्यकी उन विषयोंमें आसक्ति पैदा हो जाती है। आसक्तिसे कामना पैदा होती है। कामनासे क्रोध पैदा होता है। क्रोध होनेपर सम्मोह (मूढ़भाव) हो जाता है। सम्मोहसे स्मृति भ्रष्ट हो जाती है। स्मृति भ्रष्ट होनेपर बुद्धिका नाश हो जाता है। बुद्धिका नाश होनेपर मनुष्यका पतन हो जाता है।\n ",
+    "english": "Anger leads to delusion, which causes the loss of memory; the loss of memory leads to the destruction of discrimination, and with the destruction of discrimination, one is lost.",
+    "example": "Pause before reacting in anger."
+  },
+  {
+    "verse": "2.64",
+    "mood": "happy",
+    "sanskrit": "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन्।\n\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति।।2.64।।\n ",
+    "hindi": "।।2.64 -- 2.65।। वशीभूत अन्तःकरणवाला कर्मयोगी साधक रागद्वेषसे रहित अपने वशमें की हुई इन्द्रियोंके द्वारा विषयोंका सेवन करता हुआ अन्तःकरणकी निर्मलता को प्राप्त हो जाता है। निर्मलता प्राप्त होनेपर साधकके सम्पूर्ण दुःखोंका नाश हो जाता है और ऐसे शुद्ध चित्तवाले साधककी बुद्धि निःसन्देह बहुत जल्दी परमात्मामें स्थिर हो जाती है।\n ",
+    "english": "But he who goes through the sense-objects with the senses free from love and hate, disciplined and controlled, attains serenity.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.65",
+    "mood": "sad",
+    "sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते।\n\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते।।2.65।।\n ",
+    "hindi": "।।2.64 -- 2.65।। वशीभूत अन्तःकरणवाला कर्मयोगी साधक रागद्वेषसे रहित अपने वशमें की हुई इन्द्रियोंके द्वारा विषयोंका सेवन करता हुआ अन्तःकरणकी निर्मलता को प्राप्त हो जाता है। निर्मलता प्राप्त होनेपर साधकके सम्पूर्ण दुःखोंका नाश हो जाता है और ऐसे शुद्ध चित्तवाले साधककी बुद्धि निःसन्देह बहुत जल्दी परमात्मामें स्थिर हो जाती है।\n ",
+    "english": "In that serenity, all sorrow is lost; for in the case of the person with a serene mind, the Buddhi is quickly established.",
+    "example": "Loss is part of life, growth continues."
+  },
+  {
+    "verse": "2.66",
+    "mood": "peace",
+    "sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना।\n\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम्।।2.66।।\n ",
+    "hindi": "।।2.66।। जिसके मन-इन्द्रियाँ संयमित नहीं हैं, ऐसे मनुष्यकी व्यवसायात्मिका बुद्धि नहीं होती और व्यवसायात्मिका बुद्धि न होनेसे उसमें कर्तव्यपरायणताकी भावना नहीं होती। ऐसी भावना न होनेसे उसको शान्ति नहीं मिलती। फिर शान्तिरहित मनुष्यको सुख कैसे मिल सकता है? \n ",
+    "english": "There is no Buddhi for the unintegrated, nor is there contemplation of the self for him, and without contemplation of the self, there is no peace; and for one who lacks peace, where is the happiness?",
+    "example": "A calm mind creates clarity in decisions."
+  },
+  {
+    "verse": "2.67",
+    "mood": "happy",
+    "sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते।\n\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि।।2.67।।\n ",
+    "hindi": "।।2.67।। अपने-अपने विषयोंमें विचरती हुई इन्द्रियोंमेंसे एक ही इन्द्रिय जिस मनको अपना अनुगामी बना लेती है, वह अकेला मन जलमें नौकाको वायुकी तरह इसकी बुद्धिको हर लेता है।\n ",
+    "english": "For, when the mind follows the senses, experiencing their objects, his understanding is carried away by them, just as the wind carries away a ship on the waters.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.68",
+    "mood": "happy",
+    "sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः।\n\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता।।2.68।।\n ",
+    "hindi": "।।2.68।। इसलिये हे महाबाहो ! जिस मनुष्यकी इन्द्रियाँ इन्द्रियोंके विषयोंसे सर्वथा निगृहीत (वशमें की हुई) हैं, उसकी बुद्धि स्थिर है।\n ",
+    "english": "Therefore, O mighty-armed one, he whose senses are restrained from going after their objects on all sides, his wisdom is firmly established.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.69",
+    "mood": "happy",
+    "sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी।\n\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः।।2.69।।\n ",
+    "hindi": "।।2.69।। सम्पूर्ण प्राणियों की जो रात (परमात्मासे विमुखता) है, उसमें संयमी मनुष्य जागता है, और जिसमें सब प्राणी जागते हैं (भोग और संग्रहमें लगे रहते हैं), वह तत्त्वको जाननेवाले मुनिकी दृष्टिमें रात है।\n ",
+    "english": "What is night for all beings, in it the one who is controlled is awake; when all beings are awake, that is the night for the sage who sees.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "2.70",
+    "mood": "peace",
+    "sanskrit": "आपूर्यमाणमचलप्रतिष्ठं\n\nसमुद्रमापः प्रविशन्ति यद्वत्।\n\nतद्वत्कामा यं प्रविशन्ति सर्वे\n\nस शान्तिमाप्नोति न कामकामी।।2.70।।\n ",
+    "hindi": "।।2.70।। जैसे सम्पूर्ण नदियोंका जल चारों ओरसे जलद्वारा परिपूर्ण समुद्रमें आकर मिलता है, पर समुद्र अपनी मर्यादामें अचल प्रतिष्ठित रहता है ऐसे ही सम्पूर्ण भोग-पदार्थ जिस संयमी मनुष्य को विकार उत्पन्न किये बिना ही उसको प्राप्त होते हैं, वही मनुष्य परमशान्तिको प्राप्त होता है, भोगोंकी कामनावाला नहीं।\n ",
+    "english": "He into whom all desires enter, just as the waters enter the full and undisturbed sea, attains peace, and not he who longs after objects of desire.",
+    "example": "A calm mind creates clarity in decisions."
+  },
+  {
+    "verse": "2.71",
+    "mood": "peace",
+    "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः।\n\nनिर्ममो निरहंकारः स शांतिमधिगच्छति।।2.71।।\n ",
+    "hindi": "।।2.71।। जो मनुष्य सम्पूर्ण कामनाओंका त्याग करके स्पृहारहित, ममतारहित और अहंकाररहित होकर आचरण करता है, वह शान्तिको प्राप्त होता है।\n ",
+    "english": "The one who, abandoning all desires, abides without longing, possession, and the sense of 'I' and 'mine', wins peace.",
+    "example": "A calm mind creates clarity in decisions."
+  },
+  {
+    "verse": "2.72",
+    "mood": "lonely",
+    "sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति।\n\nस्थित्वाऽस्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति।।2.72।।\n ",
+    "hindi": "।।2.72।। हे पृथानन्दन ! यह ब्राह्मी स्थिति है। इसको प्राप्त होकर कभी कोई मोहित नहीं होता। इस स्थितिमें यदि अन्तकालमें भी स्थित हो जाय, तो निर्वाण (शान्त) ब्रह्मकी प्राप्ति हो जाती है।\n ",
+    "english": "This is the Brahmic state, O Arjuna. No one attaining to this is deluded. By abiding in this state even at the hour of death, one will attain the Self.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.1",
+    "mood": "happy",
+    "sanskrit": "अर्जुन उवाच\n\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन।\n\nतत्किं कर्मणि घोरे मां नियोजयसि केशव।।3.1।।\n ",
+    "hindi": "।।3.1 -- 3.2।। अर्जुन बोले -- हे जनार्दन! अगर आप कर्मसे बुद्धि- (ज्ञान-) को श्रेष्ठ मानते हैं, तो फिर हे केशव ! मुझे घोर कर्ममें क्यों लगाते हैं ? आप अपने मिले हुए-से वचनोंसे मेरी बुद्धिको मोहित-सी कर रहे हैं। अतः आप निश्चय करके उस एक बात को कहिये, जिससे मैं कल्याणको प्राप्त हो जाऊँ।",
+    "english": "Arjuna said, \"O Krsna, if you deem knowledge to be superior to action, why then do you urge me to engage in this terrible deed?\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.2",
+    "mood": "happy",
+    "sanskrit": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे।\n\nतदेकं वद निश्िचत्य येन श्रेयोऽहमाप्नुयाम्।।3.2।।\n ",
+    "hindi": "\n\n।।3.1 -- 3.2।। अर्जुन बोले -- हे जनार्दन! अगर आप कर्मसे बुद्धि- (ज्ञान-) को श्रेष्ठ मानते हैं, तो फिर हे केशव! मुझे घोर कर्ममें क्यों लगाते हैं ? आप अपने मिले हुए-से वचनोंसे मेरी बुद्धिको मोहित-सी कर रहे हैं। अतः आप निश्चय करके एक बात को कहिये, जिससे मैं कल्याणको प्राप्त हो जाऊँ। ",
+    "english": "You confuse my mind with statements that seem to contradict each other; tell me for certain the one way by which I could reach the highest good.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.3",
+    "mood": "happy",
+    "sanskrit": "श्री भगवानुवाच\n\nलोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ।\n\nज्ञानयोगेन सांख्यानां कर्मयोगेन योगिनाम्।।3.3।।\n ",
+    "hindi": "।।3.3।। श्रीभगवान् बोले - हे निष्पाप अर्जुन! इस मनुष्यलोकमें दो प्रकारसे होनेवाली निष्ठा मेरे द्वारा पहले कही गयी है। उनमें ज्ञानियोंकी निष्ठा ज्ञानयोगसे और योगियोंकी निष्ठा कर्मयोगसे होती है। ",
+    "english": "The Lord said, \"In this world, a two-fold way was of yore laid down by Me, O sinless one: Jnana Yoga for the Sankhyas and Karma Yoga for the Yogins.\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.4",
+    "mood": "happy",
+    "sanskrit": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते।\n\nन च संन्यसनादेव सिद्धिं समधिगच्छति।।3.4।।\n ",
+    "hindi": "।।3.4।। मनुष्य न तो कर्मोंका आरम्भ किये बिना निष्कर्मताको प्राप्त होता है और न कर्मोंके त्यागमात्रसे सिद्धिको ही प्राप्त होता है। ",
+    "english": "No one experiences freedom from action (Naiskarmya) by abstaining from work; and no one ever attains success through mere renunciation of work.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.5",
+    "mood": "happy",
+    "sanskrit": "न हि कश्िचत्क्षणमपि जातु तिष्ठत्यकर्मकृत्।\n\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः।।3.5।।\n ",
+    "hindi": "।।3.5।। कोई भी मनुष्य किसी भी अवस्थामें क्षणमात्र भी कर्म किये बिना नहीं रह सकता; क्योंकि (प्रकृतिके) परवश हुए सब प्राणियोंसे प्रकृतिजन्य गुण कर्म कराते हैं। ",
+    "english": "No one can remain still for even a moment without doing work; for everyone is compelled to act, despite themselves, by the Gunas born of Nature.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.6",
+    "mood": "happy",
+    "sanskrit": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन्।\n\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते।।3.6।।\n ",
+    "hindi": "।।3.6।। जो कर्मेन्द्रियों- (सम्पूर्ण इन्द्रियों-) को हठपूर्वक रोककर मनसे इन्द्रियोंके विषयोंका चिन्तन करता रहता है, वह मूढ़ बुद्धिवाला मनुष्य मिथ्याचारी (मिथ्या आचरण करनेवाला) कहा जाता है। ",
+    "english": "He who, controlling the organs of action, lets his mind dwell on the objects of the senses, is a deluded person and a hypocrite.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.7",
+    "mood": "happy",
+    "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन।\n\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते।।3.7।।\n ",
+    "hindi": "।।3.7।। हे अर्जुन! जो मनुष्य मनसे इन्द्रियोंपर नियन्त्रण करके आसक्तिरहित होकर (निष्काम भावसे) समस्त इन्द्रियोंके द्वारा कर्मयोगका आचरण करता है, वही श्रेष्ठ है। ",
+    "english": "But he who, subduing his senses by the mind, O Arjuna, begins to practice Karma Yoga through the organs of action and who is free from attachment, excels.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.8",
+    "mood": "happy",
+    "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\n\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः।।3.8।।\n ",
+    "hindi": "।।3.8।। तू शास्त्रविधिसे नियत किये हुए कर्तव्य-कर्म कर; क्योंकि कर्म न करनेकी अपेक्षा कर्म करना श्रेष्ठ है तथा कर्म न करनेसे तेरा शरीर-निर्वाह भी सिद्ध नहीं होगा। ",
+    "english": "You must perform your obligatory action; for action is superior to non-action (Jñāna Yoga). For a person following non-action, not even the sustenance of the body is possible.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.9",
+    "mood": "happy",
+    "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\n\nतदर्थं कर्म कौन्तेय मुक्तसंगः समाचर।।3.9।।\n ",
+    "hindi": "।।3.9।। यज्ञ (कर्तव्यपालन) के लिये किये जानेवाले कर्मोंसे अन्यत्र (अपने लिये किये जानेवाले) कर्मोंमें लगा हुआ यह मनुष्य-समुदाय कर्मोंसे बँधता है, इसलिये हे कुन्तीनन्दन ! तू आसक्ति-रहित होकर उस यज्ञके लिये ही कर्तव्य-कर्म कर। ",
+    "english": "This world is held in the bondage of work only when work is not performed as a sacrifice. O Arjuna, you must perform work for this purpose, free from attachment.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.10",
+    "mood": "happy",
+    "sanskrit": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः।\n\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्।।3.10।।\n ",
+    "hindi": "।।3.10 -- 3.11।। प्रजापति ब्रह्माजीने सृष्टिके आदिकालमें कर्तव्य-कर्मोंके विधानसहित प्रजा-(मनुष्य आदि-) की रचना करके उनसे (प्रधानतया मनुष्योंसे) कहा कि तुमलोग इस कर्तव्यके द्वारा सबकी वृद्धि करो और वह कर्तव्य-कर्म-रूप यज्ञ तुमलोगोंको कर्तव्य-पालनकी आवश्यक सामग्री प्रदान करनेवाला हो। अपने कर्तव्य-कर्मके द्वारा तुमलोग देवताओंको उन्नत करो और वे देवतालोग अपने कर्तव्यके द्वारा तुमलोगोंको उन्नत करें। इस प्रकार एक-दूसरेको उन्नत करते हुए तुमलोग परम कल्याणको प्राप्त हो जाओगे।",
+    "english": "In the beginning, the Lord of all beings created man along with the sacrifice and said, \"By this shall you prosper; this shall be the cow of plenty, granting all your desires.\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.11",
+    "mood": "happy",
+    "sanskrit": "देवान्भावयतानेन ते देवा भावयन्तु वः।\n\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ।।3.11।।\n ",
+    "hindi": "\n\n।।3.10 -- 3.11।। प्रजापति ब्रह्माजीने सृष्टिके आदिकालमें कर्तव्य-कर्मोंके विधानसहित प्रजा-(मनुष्य आदि-) की रचना करके (उनसे, प्रधानतया मनुष्योंसे) कहा कि तुमलोग इस कर्तव्यके द्वारा सबकी वृद्धि करो और वह कर्तव्य-कर्म-रूप यज्ञ तुमलोगोंको कर्तव्य-पालनकी आवश्यक सामग्री प्रदान करनेवाला हो। अपने कर्तव्य-कर्मके द्वारा तुमलोग देवताओंको उन्नत करो और वे देवतालोग अपने कर्तव्यके द्वारा तुमलोगोंको उन्नत करें। इस प्रकार एक-दूसरेको उन्नत करते हुए तुमलोग परम कल्याणको प्राप्त हो जाओगे।\n ",
+    "english": "By this, please the gods, and they will support you. Thus, nourishing each other, you may obtain the highest good.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.12",
+    "mood": "happy",
+    "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः।\n\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः।।3.12।।\n ",
+    "hindi": "।।3.12।। यज्ञसे भावित (पुष्ट) हुए देवता भी तुमलोगोंको (बिना माँगे ही) कर्तव्य-पालनकी आवश्यक सामग्री देते रहेंगे। इस प्रकार उन देवताओंसे प्राप्त हुई सामग्रीको दूसरोंकी सेवामें लगाये बिना जो मनुष्य स्वयं ही उसका उपभोग करता है, वह चोर ही है। ",
+    "english": "The gods, pleased by the sacrifice, will bestow upon you the enjoyments you desire. He who enjoys the bounty of the gods without giving them anything in return is but a thief.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.13",
+    "mood": "happy",
+    "sanskrit": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः।\n\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात्।।3.13।।\n ",
+    "hindi": "।।3.13।। यज्ञशेष- (योग-) का अनुभव करनेवाले श्रेष्ठ मनुष्य सम्पूर्ण पापोंसे मुक्त हो जाते हैं। परन्तु जो केवल अपने लिये ही पकाते अर्थात् सब कर्म करते हैं, वे पापीलोग तो पापका ही भक्षण करते हैं। ",
+    "english": "Pious people who eat the remnants of sacrifices are freed from all sins, whereas those who are sinful and cook only for their own sake will only incur sin.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.14",
+    "mood": "happy",
+    "sanskrit": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः।\n\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः।।3.14।।\n ",
+    "hindi": "।।3.14 -- 3.15।। सम्पूर्ण प्राणी अन्नसे उत्पन्न होते हैं। अन्न  वर्षासे होती है। वर्षा यज्ञसे होती है। यज्ञ कर्मोंसे निष्पन्न होता है। कर्मोंको तू वेदसे उत्पन्न जान और वेदको अक्षरब्रह्मसे प्रकट हुआ जान। इसलिये वह सर्वव्यापी परमात्मा यज्ञ (कर्तव्य-कर्म) में नित्य प्रतिष्ठित है।\n ",
+    "english": "All beings arise from food; food is produced from rain; rain comes from sacrifice; and sacrifice is born of action.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.15",
+    "mood": "lonely",
+    "sanskrit": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम्।\n\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्।।3.15।।\n ",
+    "hindi": "।।3.14 -- 3.15।। सम्पूर्ण प्राणी अन्नसे उत्पन्न होते हैं। अन्न  वर्षासे होती है। वर्षा यज्ञसे होती है। यज्ञ कर्मोंसे निष्पन्न होता है। कर्मोंको तू वेदसे उत्पन्न जान और वेदको अक्षरब्रह्मसे प्रकट हुआ जान। इसलिये वह सर्वव्यापी परमात्मा यज्ञ (कर्तव्य-कर्म) में नित्य प्रतिष्ठित है।\n ",
+    "english": "Know that activity springs from Brahman, i.e., the physical body; Brahman arises from the imperishable Self; therefore, the all-pervading Brahman is ever established in sacrifice.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.16",
+    "mood": "happy",
+    "sanskrit": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः।\n\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति।।3.16।।\n ",
+    "hindi": "।।3.16।। हे पार्थ! जो मनुष्य इस लोकमें इस प्रकार परम्परासे प्रचलित सृष्टिचक्रके अनुसार नहीं चलता, वह इन्द्रियोंके द्वारा भोगोंमें रमण करनेवाला अघायु (पापमय जीवन बितानेवाला) मनुष्य संसारमें व्यर्थ ही जीता है। ",
+    "english": "He who does not follow the wheel thus set in motion here, lives in sin, satisfying the senses, O Arjuna; he lives in vain.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.17",
+    "mood": "lonely",
+    "sanskrit": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः।\n\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते।।3.17।।\n ",
+    "hindi": "।।3.17।।  जो मनुष्य अपने-आपमें ही रमण करनेवाला और अपने-आपमें ही तृप्त तथा अपने-आपमें ही संतुष्ट है, उसके लिये कोई कर्तव्य नहीं है। ",
+    "english": "But the man whose delight is only in the Self, who is satisfied with the Self, who rejoices in the Self, for him nothing remains to be accomplished.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.18",
+    "mood": "happy",
+    "sanskrit": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन।\n\nन चास्य सर्वभूतेषु कश्िचदर्थव्यपाश्रयः।।3.18।।\n ",
+    "hindi": "।।3.18।। उस (कर्मयोगसे सिद्ध हुए) महापुरुषका इस संसारमें न तो कर्म करनेसे कोई प्रयोजन रहता है, और न कर्म न करनेसे ही कोई प्रयोजन रहता है, तथा सम्पूर्ण प्राणियोंमें (किसी भी प्राणीके साथ) इसका किञ्चिन्मात्र भी स्वार्थका सम्बन्ध नहीं रहता। ",
+    "english": "He has no purpose to gain from work done or left undone, nor does he have to rely on any end.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.19",
+    "mood": "happy",
+    "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर।\n\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः।।3.19।।\n ",
+    "hindi": "।।3.19।। इसलिये तू निरन्तर आसक्तिरहित होकर कर्तव्य-कर्मका भलीभाँति आचरण कर; क्योंकि आसक्तिरहित होकर कर्म करता हुआ मनुष्य परमात्माको प्राप्त हो जाता है। ",
+    "english": "Therefore, do your work without attachment, which ought to be done. For, a person who works without attachment attains the Supreme.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.20",
+    "mood": "lonely",
+    "sanskrit": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः।\n\nलोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि।।3.20।।\n ",
+    "hindi": "।।3.20।। राजा जनक-जैसे अनेक महापुरुष भी कर्मके द्वारा ही परमसिद्धिको प्राप्त हुए हैं। इसलिये लोकसंग्रहको देखते हुए भी तू (निष्कामभावसे) कर्म करनेके योग्य है। ",
+    "english": "Indeed, Janaka and others reached perfection through Karma Yoga alone. Even recognizing its necessity for guiding the world, you must perform action.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.21",
+    "mood": "happy",
+    "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\n\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते।।3.21।।\n ",
+    "hindi": "।।3.21।। श्रेष्ठ मनुष्य जो-जो आचरण करता है, दूसरे मनुष्य वैसा-वैसा ही आचरण करते हैं। वह जो कुछ प्रमाण  देता है,  दूसरे मनुष्य उसीके अनुसार आचरण करते हैं। ",
+    "english": "Whatever a great man does, others do too. Whatever standard he sets, the world follows it.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.22",
+    "mood": "happy",
+    "sanskrit": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन।\n\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि।।3.22।।\n ",
+    "hindi": "।।3.22।। हे पार्थ! मुझे तीनों लोकोंमें न तो कुछ कर्तव्य है और न कोई प्राप्त करनेयोग्य वस्तु अप्राप्त है, फिर भी मैं कर्तव्यकर्ममें ही लगा रहता हूँ। ",
+    "english": "For me, Arjuna, there is nothing in all the three worlds that ought to be done, nor is there anything unaccomplished that ought to be accomplished. Yet I continue to work.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.23",
+    "mood": "happy",
+    "sanskrit": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।\n\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः।।3.23।।\n ",
+    "hindi": "।।3.23 -- 3.24।।  हे पार्थ! अगर मैं किसी समय सावधान होकर कर्तव्यकर्म न करूँ तो बड़ी हानि हो जाय; क्योंकि मनुष्य सब प्रकारसे मेरे ही मार्गका अनुसरण करते हैं। यदि मैं कर्म न करूँ, तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं वर्णसंकरताको करनेवाला होऊँ तथा इस समस्त प्रजाको नष्ट करनेवाला बनूँ।",
+    "english": "If I did not continue to work unweariedly, O Arjuna, people would follow my path.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.24",
+    "mood": "happy",
+    "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्।\n\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः।।3.24।।\n ",
+    "hindi": "।।3.23 -- 3.24।।  हे पार्थ ! अगर मैं किसी समय सावधान होकर कर्तव्य-कर्म न करूँ (तो बड़ी हानि हो जाय; क्योंकि) मनुष्य सब प्रकारसे मेरे ही मार्गका अनुसरण करते हैं। यदि मैं कर्म न करूँ, तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं वर्णसंकरताको करनेवाला  तथा इस समस्त प्रजाको नष्ट करनेवाला बनूँ।\n ",
+    "english": "If I do not do the work, these people will be lost; and I will be causing chaos in life and thereby ruining all these people.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.25",
+    "mood": "happy",
+    "sanskrit": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत।\n\nकुर्याद्विद्वांस्तथासक्तश्िचकीर्षुर्लोकसंग्रहम्।।3.25।।\n ",
+    "hindi": "।।3.25 -- 3.26।। हे भरतवंशोद्भव अर्जुन! कर्ममें आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं, आसक्तिरहित विद्वान भी लोकसंग्रह करना चाहता हुआ उसी प्रकार कर्म करे।  तत्त्वज्ञ महापुरुष कर्मोंमें आसक्तिवाले अज्ञानी मनुष्योंकी बुद्धिमें भ्रम उत्पन्न न करे, प्रत्युत स्वयं समस्त कर्मोंको अच्छी तरहसे करता हुआ उनसे भी वैसे ही करवाये।",
+    "english": "Just as the ignorant, attached to their work, act, O Arjuna, so too the learned should act without any attachment, and only for the welfare of the world.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.26",
+    "mood": "lonely",
+    "sanskrit": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम्।\n\nजोषयेत्सर्वकर्माणि विद्वान् युक्तः समाचरन्।।3.26।।\n ",
+    "hindi": "।।3.25 -- 3.26।। हे भरतवंशोद्भव अर्जुन! कर्ममें आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं आसक्तिरहित विद्वान भी लोकसंग्रह करना चाहता हुआ उसी प्रकार कर्म करे। सावधान तत्त्वज्ञ महापुरुष कर्मोंमें आसक्तिवाले अज्ञानी मनुष्योंकी बुद्धिमें भ्रम उत्पन्न न करे, प्रत्युत स्वयं समस्त कर्मोंको अच्छी तरहसे करता हुआ उनसे भी वैसे ही करवाये।\n ",
+    "english": "He should not bewilder the minds of the ignorant who are attached to work; rather, he should himself perform work with devotion and cause others to do the same.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.27",
+    "mood": "happy",
+    "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः।\n\nअहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते।।3.27।।\n ",
+    "hindi": "।।3.27।। सम्पूर्ण कर्म सब प्रकारसे प्रकृतिके गुणोंद्वारा किये जाते हैं; परन्तु अहंकारसे मोहित अन्तःकरणवाला अज्ञानी मनुष्य 'मैं कर्ता हूँ' -- ऐसा मानता है। ",
+    "english": "Actions are being performed in every way by the Gunas of Prakrti; he whose nature is deluded by egoism, however, thinks, 'I am the doer.'",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.28",
+    "mood": "happy",
+    "sanskrit": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः।\n\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते।।3.28।।\n ",
+    "hindi": "।।3.28।।  हे महाबाहो! गुण-विभाग और कर्म-विभागको तत्त्वसे जाननेवाला महापुरुष 'सम्पूर्ण गुण ही गुणोंमें बरत रहे हैं' --  ऐसा मानकर उनमें आसक्त नहीं होता। ",
+    "english": "But he who knows the truth about the division of the Gunas and works, O mighty-armed one, through his knowledge that the Gunas 'operate on their own products,' is not attached.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.29",
+    "mood": "happy",
+    "sanskrit": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु।\n\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत्।।3.29।।\n ",
+    "hindi": "।।3.29।। प्रकृतिजन्य गुणोंसे अत्यन्त मोहित हुए अज्ञानी मनुष्य गुणों और कर्मोंमें आसक्त रहते हैं। उन पूर्णतया न समझनेवाले मन्दबुद्धि अज्ञानियोंको पूर्णतया जाननेवाला ज्ञानी मनुष्य विचलित न करे। ",
+    "english": "Those who are deluded by the Gunas of Prakrti are attached to the works of the Gunas. But he who knows the whole truth should not disturb the ignorant who do not know the whole truth.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.30",
+    "mood": "lonely",
+    "sanskrit": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा।\n\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः।।3.30।।\n ",
+    "hindi": "।।3.30।। तू विवेकवती बुद्धिके द्वारा सम्पूर्ण कर्तव्य-कर्मोंको मेरे अर्पण करके कामना, ममता और संताप-रहित होकर युद्धरूप कर्तव्य-कर्मको कर। ",
+    "english": "Surrender all your actions to Me, with a mind focused on the Self, free from desire and selfishness, and fight with the heat of excitement abated.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.31",
+    "mood": "happy",
+    "sanskrit": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः।\n\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः।।3.31।।\n ",
+    "hindi": "।।3.31।। जो मनुष्य दोष-दृष्टिसे रहित होकर श्रद्धापूर्वक मेरे इस (पूर्वश्लोकमें वर्णित) मतका सदा अनुसरण करते हैं, वे भी कर्मोंके बन्धनसे मुक्त हो जाते हैं। ",
+    "english": "Those men who, full of faith, ever practice this teaching of Mine and those who receive it without cavil—even they are released from karma.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.32",
+    "mood": "happy",
+    "sanskrit": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम्।\n\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः।।3.32।।\n ",
+    "hindi": "।।3.32।। परन्तु जो मनुष्य मेरे इस मतमें दोष-दृष्टि करते हुए इसका अनुष्ठान नहीं करते, उन सम्पूर्ण ज्ञानोंमें मोहित और अविवेकी मनुष्योंको नष्ट हुए ही समझो। ",
+    "english": "But those who slander it, and those who do not practice this teaching of Mine—know them to be utterly senseless and devoid of all knowledge, and thus lost.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.33",
+    "mood": "happy",
+    "sanskrit": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि।\n\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति।।3.33।।\n ",
+    "hindi": "।।3.33।। सम्पूर्ण प्राणी प्रकृतिको प्राप्त होते हैं। ज्ञानी महापुरुष भी अपनी प्रकृतिके अनुसार चेष्टा करता है। फिर इसमें किसीका हठ क्या करेगा?",
+    "english": "Even the man of knowledge acts according to his nature; all beings follow their own nature. What will repression accomplish?",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.34",
+    "mood": "happy",
+    "sanskrit": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ।\n\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ।।3.34।।\n ",
+    "hindi": "।।3.34।। इन्द्रिय-इन्द्रियके अर्थमें (प्रत्येक इन्द्रियके प्रत्येक विषयमें) मनुष्यके राग और द्वेष व्यवस्थासे (अनुकूलता और प्रतिकूलताको लेकर) स्थित हैं। मनुष्यको उन दोनोंके वशमें नहीं होना चाहिये; क्योंकि वे दोनों ही इसके (पारमार्थिक मार्गमें विघ्न डालनेवाले) शत्रु हैं। ",
+    "english": "Each sense has a fixed attachment to and aversion for its corresponding object, but one should not come under their sway, for they are enemies.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.35",
+    "mood": "anxiety",
+    "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\n\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः।।3.35।।\n ",
+    "hindi": "।।3.35।। अच्छी तरह आचरणमें लाये हुए दूसरेके धर्मसे गुणोंकी कमीवाला अपना धर्म श्रेष्ठ है। अपने धर्ममें तो मरना भी कल्याणकारक है और दूसरेका धर्म भयको देनेवाला है। ",
+    "english": "Better is one's own duty, even if done poorly, than the duty of another done well. It is better to die while performing one's own duty; the duty of another is full of fear.",
+    "example": "Focus on effort instead of worrying about results."
+  },
+  {
+    "verse": "3.36",
+    "mood": "happy",
+    "sanskrit": "अर्जुन उवाच\n\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः।\n\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः।।3.36।।\n ",
+    "hindi": "।।3.36।। अर्जुन बोले - हे वार्ष्णेय ! फिर यह मनुष्य न चाहता हुआ भी जबर्दस्ती लगाये हुएकी तरह किससे प्रेरित होकर पापका आचरण करता है?",
+    "english": "Arjuna said, \"But, O Krsna, what impels one to commit sin, even against their own will, as if constrained by force?\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.37",
+    "mood": "anger",
+    "sanskrit": "श्री भगवानुवाच\n\nकाम एष क्रोध एष रजोगुणसमुद्भवः।\n\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्।।3.37।।\n ",
+    "hindi": "।।3.37।। श्रीभगवान् बोले - रजोगुणसे उत्पन्न हुआ  यह काम ही क्रोध  है। यह बहुत खानेवाला और महापापी है। इस विषयमें तू इसको ही वैरी जान। ",
+    "english": "The Lord said, \"It is desire, it is wrath, born of the guna of rajas; it is a great devourer, an impeller of sin. Know this to be the enemy here.\"",
+    "example": "Pause before reacting in anger."
+  },
+  {
+    "verse": "3.38",
+    "mood": "happy",
+    "sanskrit": "धूमेनाव्रियते वह्निर्यथाऽऽदर्शो मलेन च।\n\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम्।।3.38।।\n ",
+    "hindi": "।।3.38।। जैसे धुएँसे अग्नि और मैलसे दर्पण ढक जाता है तथा जैसे जेरसे गर्भ ढका रहता है, ऐसे ही उस कामके द्वारा यह ज्ञान ( विवेक) ढका हुआ है। ",
+    "english": "As a fire is enveloped by smoke, as a mirror is covered by dust, and as an embryo is encased in the amniotic sac, so is this world enveloped by desire.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.39",
+    "mood": "lonely",
+    "sanskrit": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा।\n\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च।।3.39।।\n ",
+    "hindi": "।।3.39।। और हे कुन्तीनन्दन ! इस अग्निके समान कभी तृप्त न होनेवाले और विवेकियोंके नित्य वैरी इस कामके द्वारा मनुष्यका विवेक ढका हुआ है। ",
+    "english": "The knowledge of the intelligent self is enveloped by this constant enemy, O Arjuna, which is of the nature of desire and is difficult to gratify and insatiable.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.40",
+    "mood": "lonely",
+    "sanskrit": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते।\n\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम्।।3.40।।\n ",
+    "hindi": "।।3.40।। इन्द्रियाँ, मन और बुद्धि इस कामके वास-स्थान कहे गये हैं। यह काम इन- (इन्द्रियाँ, मन और बुद्धि-) के द्वारा ज्ञानको ढककर देहाभिमानी मनुष्यको मोहित करता है। ",
+    "english": "The senses, the mind, and the intellect are said to be its instruments; by these, it overpowers the embodied self, enveloping its knowledge.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "3.41",
+    "mood": "happy",
+    "sanskrit": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ।\n\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम्।।3.41।।\n ",
+    "hindi": "।।3.41।। इसलिये हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! तू सबसे पहले इन्द्रियोंको वशमें करके इस ज्ञान और विज्ञानका नाश करनेवाले महान् पापी कामको अवश्य ही बलपूर्वक मार डाल। ",
+    "english": "Therefore, O Arjuna, control your senses from the outset and slay this sinful thing that destroys both knowledge and discernment.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.42",
+    "mood": "happy",
+    "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः।\n\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः।।3.42।।\n ",
+    "hindi": "।।3.42 -- 3.43।। इन्द्रियोंको (स्थूलशरीरसे) पर (श्रेष्ठ, सबल, प्रकाशक, व्यापक तथा सूक्ष्म) कहते हैं। इन्द्रियोंसे पर मन है, मनसे भी पर बुद्धि है औऱ जो बुद्धिसे भी पर है, वह (काम) है। इस तरह बुद्धिसे पर - (काम-) को जानकर अपने द्वारा अपने-आपको वशमें करके हे महाबाहो ! तू इस कामरूप दुर्जय शत्रुको मार डाल।",
+    "english": "They say that the senses are high, the mind is higher than the senses, the intellect is higher than the mind, but what is greater than the intellect is that (desire).",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "3.43",
+    "mood": "happy",
+    "sanskrit": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना।\n\nजहि शत्रुं महाबाहो कामरूपं दुरासदम्।।3.43।।\n ",
+    "hindi": "।।3.42 -- 3.43।। इन्द्रियोंको (स्थूलशरीरसे) पर (श्रेष्ठ, सबल, प्रकाशक, व्यापक तथा सूक्ष्म) कहते हैं। इन्द्रियोंसे पर मन है, मनसे भी पर बुद्धि है औऱ जो बुद्धिसे भी पर है वह (काम) है। इस तरह बुद्धिसे पर - (काम-) को जानकर अपने द्वारा अपने-आपको वशमें करके हे महाबाहो ! तू इस कामरूप दुर्जय शत्रुको मार डाल।\n ",
+    "english": "Thus, knowing that which is higher than the intellect and fixing the mind with the help of the intellect in Karma Yoga, O Arjuna, slay this enemy which takes the form of desire, and which is difficult to overcome.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.1",
+    "mood": "happy",
+    "sanskrit": "श्री भगवानुवाच\n\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम्।\n\nविवस्वान् मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत्।।4.1।।\n ",
+    "hindi": "।।4.1।। श्रीभगवान् बोले - मैंने इस अविनाशी योगको सूर्यसे कहा था। फिर सूर्यने (अपने पुत्र) वैवस्वत मनुसे कहा और मनुने (अपने पुत्र) राजा इक्ष्वाकुसे कहा। ",
+    "english": "The Lord said, \"I taught this imperishable Yoga to Vivasvan; Vivasvan taught it to Manu; Manu declared it to Iksvaku.\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.2",
+    "mood": "happy",
+    "sanskrit": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः।\n\nस कालेनेह महता योगो नष्टः परन्तप।।4.2।।\n ",
+    "hindi": "।।4.2।। हे परंतप ! इस तरह परम्परासे प्राप्त इस कर्मयोग को राजर्षियोंने जाना। परन्तु बहुत समय बीत जानेके कारण वह योग इस मनुष्यलोकमें लुप्तप्राय हो गया। ",
+    "english": "Thus handed down in succession, the royal sages knew this (Karma Yoga). But with a long lapse of time, O Arjuna, that Yoga was lost to the world.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.3",
+    "mood": "happy",
+    "sanskrit": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः।\n\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम्।।4.3।।\n ",
+    "hindi": "।।4.3।। तू मेरा भक्त और प्रिय सखा है, इसलिये वही यह पुरातन योग आज मैंने तुझसे कहा है; क्योंकि यह बड़ा उत्तम रहस्य है। ",
+    "english": "It is the same ancient Yoga that I am now teaching you, for you are My devotee and My friend. For, this is a supreme mystery.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.4",
+    "mood": "happy",
+    "sanskrit": "अर्जुन उवाच\n\nअपरं भवतो जन्म परं जन्म विवस्वतः।\n\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति।।4.4।।\n ",
+    "hindi": "।।4.4।। अर्जुन बोले - आपका जन्म तो अभीका है और सूर्यका जन्म बहुत पुराना है; अतः आपने ही सृष्टिके आदिमें सूर्यसे यह योग कहा था - यह बात मैं कैसे समझूँ?",
+    "english": "Arjuna said, \"Your birth was later, and Vivasvan's birth was earlier. How then can I understand that you taught it in the beginning?\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.5",
+    "mood": "happy",
+    "sanskrit": "श्री भगवानुवाच\n\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन।\n\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप।।4.5।।\n ",
+    "hindi": "।।4.5।। श्रीभगवान् बोले -- हे परन्तप अर्जुन ! मेरे और तेरे बहुत-से जन्म हो चुके हैं। उन सबको मैं जानता हूँ, पर तू नहीं जानता। ",
+    "english": "The Lord said, \"Many of My births have passed, O Arjuna, as have yours. I know them all, but you do not know them.\"",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.6",
+    "mood": "happy",
+    "sanskrit": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन्।\n\nप्रकृतिं स्वामधिष्ठाय संभवाम्यात्ममायया।।4.6।।\n ",
+    "hindi": "।।4.6।। मैं अजन्मा और अविनाशी-स्वरूप होते हुए भी तथा सम्पूर्ण प्राणियोंका ईश्वर होते हुए भी अपनी प्रकृतिको अधीन करके अपनी योगमायासे प्रकट होता हूँ। ",
+    "english": "Though I am birthless and of immutable nature, and the Lord of all beings, yet by employing My own Nature (Prakrti), I am born out of My own free will.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.7",
+    "mood": "lonely",
+    "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\n\nअभ्युत्थानमधर्मस्य तदाऽऽत्मानं सृजाम्यहम्।।4.7।।\n ",
+    "hindi": "।।4.7।। हे भरतवंशी अर्जुन! जब-जब धर्मकी हानि और अधर्मकी वृद्धि होती है, तब-तब ही मैं अपने-आपको साकाररूपसे प्रकट करता हूँ। ",
+    "english": "Whenever there is a decline of Dharma, O Arjuna, and an uprising of Adharma, then I incarnate myself.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.8",
+    "mood": "protection",
+    "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\n\nधर्मसंस्थापनार्थाय संभवामि युगे युगे।।4.8।।\n ",
+    "hindi": "।।4.8।। साधुओं-(भक्तों-) की रक्षा करनेके लिये, पापकर्म करनेवालोंका विनाश करनेके लिये और धर्मकी भलीभाँति स्थापना करनेके लिये मैं युग-युगमें प्रकट हुआ करता हूँ। ",
+    "english": "For the protection of the good and the destruction of the wicked, for the establishment of Dharma, I am born from age to age.",
+    "example": "Stand for truth even when it's hard."
+  },
+  {
+    "verse": "4.9",
+    "mood": "happy",
+    "sanskrit": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः।\n\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन।।4.9।।\n ",
+    "hindi": "।।4.9।। हे अर्जुन ! मेरे जन्म और कर्म दिव्य हैं। इस प्रकार (मेरे जन्म और कर्मको) जो मनुष्य तत्त्वसे जान लेता अर्थात् दृढ़तापूर्वक मान लेता है, वह शरीरका त्याग करके पुनर्जन्मको प्राप्त नहीं होता, प्रत्युत मुझे प्राप्त होता है। ",
+    "english": "He who thus knows in truth My divine birth and actions does not get rebirth after leaving the body; he will come to Me, O Arjuna.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.10",
+    "mood": "anger",
+    "sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः।\n\nबहवो ज्ञानतपसा पूता मद्भावमागताः।।4.10।।\n ",
+    "hindi": "।।4.10।। राग, भय और क्रोधसे सर्वथा रहित, मेरेमें ही तल्लीन, मेरे ही आश्रित तथा ज्ञानरूप तपसे पवित्र हुए बहुत-से भक्त मेरे भाव- (स्वरूप-) को प्राप्त हो चुके हैं। ",
+    "english": "Freed from desire, fear, and wrath, absorbed in Me, depending upon Me, purified by the austerity of knowledge, many have attained My state.",
+    "example": "Pause before reacting in anger."
+  },
+  {
+    "verse": "4.11",
+    "mood": "lonely",
+    "sanskrit": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्।\n\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः।।4.11।।\n ",
+    "hindi": "।।4.11।। हे पृथानन्दन ! जो भक्त जिस प्रकार मेरी शरण लेते हैं, मैं उन्हें उसी प्रकार आश्रय देता हूँ; क्योंकि सभी मनुष्य सब प्रकारसे मेरे मार्गका अनुकरण करते हैं। ",
+    "english": "Whoever resorts to Me in any manner, I favor them in the same manner; men experience Me alone in different ways, O Arjuna.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.12",
+    "mood": "happy",
+    "sanskrit": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः।\n\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा।।4.12।।\n ",
+    "hindi": "।।4.12।। कर्मोंकी सिद्धि (फल) चाहनेवाले मनुष्य देवताओंकी उपासना किया करते हैं; क्योंकि इस मनुष्यलोकमें कर्मोंसे उत्पन्न होनेवाली सिद्धि जल्दी मिल जाती है। ",
+    "english": "Those who desire the fruits of their ritualistic acts, sacrifice to the gods here; for, success quickly accrues in the world of men.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.13",
+    "mood": "happy",
+    "sanskrit": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः।\n\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम्।।4.13।।\n ",
+    "hindi": "।।4.13 -- 4.14।। मेरे द्वारा गुणों और कर्मोंके विभागपूर्वक चारों वर्णोंकी रचना की गयी है। उस-(सृष्टि-रचना आदि-) का कर्ता होनेपर भी मुझ अव्यय रमेश्वरको तू अकर्ता जान। कारण कि कर्मोंके फलमें मेरी स्पृहा नहीं है, इसलिये मुझे कर्म लिप्त नहीं करते। इस प्रकार जो मुझे तत्त्वसे जान लेता है, वह भी कर्मोंसे नहीं बँधता।",
+    "english": "The system of four stations was created by Me, according to the distinction of Gunas and Karma. Though I am their creator, know Me to be non-agent and immutable.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.14",
+    "mood": "happy",
+    "sanskrit": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा।\n\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते।।4.14।।\n ",
+    "hindi": "।।4.13 -- 4.14।। मेरे द्वारा गुणों और कर्मोंके विभागपूर्वक चारों वर्णोंकी रचना की गयी है। उस-(सृष्टि-रचना आदि-) का कर्ता होनेपर भी मुझ अव्यय परमेश्वरको तू अकर्ता जान। कारण कि कर्मोंके फलमें मेरी स्पृहा नहीं है, इसलिये मुझे कर्म लिप्त नहीं करते। इस प्रकार जो मुझे तत्त्वसे जान लेता है, वह भी कर्मोंसे नहीं बँधता।\n ",
+    "english": "Works cannot contaminate Me. There is no desire for the fruits of actions in Me. He who understands this is not bound by actions.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.15",
+    "mood": "happy",
+    "sanskrit": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः।\n\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम्।।4.15।।\n ",
+    "hindi": "।।4.15।। पूर्वकालके मुमुक्षुओंने भी इस प्रकार जानकर कर्म किये हैं, इसलिये तू भी पूर्वजोंके द्वारा सदासे किये जानेवाले कर्मोंको ही (उन्हींकी तरह) कर। ",
+    "english": "Knowing thus, even ancient seekers of liberation did their work. Therefore, do your work only as the ancients did in olden times.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.16",
+    "mood": "happy",
+    "sanskrit": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः।\n\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात्।।4.16।।\n ",
+    "hindi": "।।4.16।। कर्म क्या है और अकर्म क्या है -- इस प्रकार इस विषयमें विद्वान् भी मोहित हो जाते हैं। अतः वह कर्म-तत्त्व मैं तुम्हें भलीभाँति कहूँगा, जिसको जानकर तू अशुभ- (संसार-बन्धन-) से मुक्त हो जायगा। ",
+    "english": "What is action? What is non-action? Even the wise are puzzled in respect of these. I shall declare to you that kind of action, knowing which you will be freed from evil.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.17",
+    "mood": "happy",
+    "sanskrit": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः।\n\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः।।4.17।।\n ",
+    "hindi": "।।4.17।। कर्मका तत्त्व भी जानना चाहिये और अकर्मका तत्त्व भी जानना चाहिये तथा विकर्मका तत्त्व भी जानना चाहिये; क्योंकि कर्मकी गति गहन है। ",
+    "english": "For, there is what ought to be known in action; likewise, there is what ought to be known in multi-form action; and there is what ought to be understood in non-action. Thus, mysterious is the way of action.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.18",
+    "mood": "lazy",
+    "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः।\n\nस बुद्धिमान् मनुष्येषु स युक्तः कृत्स्नकर्मकृत्।।4.18।।\n ",
+    "hindi": "।।4.18।। जो मनुष्य कर्ममें अकर्म देखता है और जो अकर्ममें कर्म देखता है, वह मनुष्योंमें बुद्धिमान् है,  योगी है और सम्पूर्ण कर्मोंको करनेवाला  है। ",
+    "english": "He who sees inaction in action and also action in inaction is wise among men. He is fit for release and has accomplished all actions.",
+    "example": "Take small steps instead of avoiding work."
+  },
+  {
+    "verse": "4.19",
+    "mood": "lonely",
+    "sanskrit": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः।\n\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः।।4.19।।\n ",
+    "hindi": "।।4.19।। जिसके सम्पूर्ण कर्मोंके आरम्भ संकल्प और कामनासे रहित हैं तथा जिसके सम्पूर्ण कर्म ज्ञानरूपी अग्निसे जल गये हैं, उसको ज्ञानिजन भी पण्डित (बुद्धिमान्) कहते हैं। ",
+    "english": "He whose every undertaking is free from desire and delusive identification (of the body with the self), whose actions are burned up in the fire of knowledge—the wise describe him as a sage.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.20",
+    "mood": "lonely",
+    "sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः।\n\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः।।4.20।।\n ",
+    "hindi": "।।4.20।। जो कर्म और फलकी आसक्तिका त्याग करके आश्रयसे रहित और सदा तृप्त है, वह कर्मोंमें अच्छी तरह लगा हुआ भी वास्तवमें कुछ भी नहीं करता। ",
+    "english": "Having renounced attachment to the fruits of their actions, ever contented with the eternal self, and dependent on none, one does not act at all, even while being engaged in action.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.21",
+    "mood": "happy",
+    "sanskrit": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः।\n\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम्।।4.21।।\n ",
+    "hindi": "।।4.21।। जिसका शरीर और अन्तःकरण अच्छी तरहसे वशमें किया हुआ है, जिसने सब प्रकारके संग्रहका परित्याग कर दिया है, ऐसा आशारहित कर्मयोगी केवल शरीर-सम्बन्धी कर्म करता हुआ भी पापको प्राप्त नहीं होता। ",
+    "english": "Free from desire, his intellect and mind controlled, having given up all possessions, and doing bodily work only, he is not subject to evil.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.22",
+    "mood": "happy",
+    "sanskrit": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः।\n\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते।।4.22।।\n ",
+    "hindi": "।।4.22।। जो (कर्मयोगी) फल की इच्छा के बिना, अपने-आप जो कुछ मिल जाय, उसमें सन्तुष्ट रहता है और जो ईर्ष्यासे रहित, द्वन्द्वोंसे अतीत तथा सिद्धि और असिद्धिमें सम है, वह कर्म करते हुए भी उससे नहीं बँधता। ",
+    "english": "Content with what chance may bring, rising above the pairs of opposites, free from ill-will, even-minded in success and failure, he acts, yet is not bound.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.23",
+    "mood": "happy",
+    "sanskrit": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः।\n\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते।।4.23।।\n ",
+    "hindi": "।।4.23।। जिसकी आसक्ति सर्वथा मिट गयी है, जो मुक्त हो गया है, जिसकी बुद्धि स्वरूपके ज्ञानमें स्थित है, ऐसे केवल यज्ञके लिये कर्म करनेवाले मनुष्यके सम्पूर्ण कर्म विलीन हो जाते हैं। ",
+    "english": "One whose attachments have been relinquished, who is liberated, whose mind is established in knowledge, and who works only for sacrifices—their Karma is entirely dissolved.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.24",
+    "mood": "lonely",
+    "sanskrit": "ब्रह्मार्पणं ब्रह्महविर्ब्रह्माग्नौ ब्रह्मणा हुतम्।\n\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना।।4.24।।\n ",
+    "hindi": "।।4.24।। जिस यज्ञमें अर्पण भी ब्रह्म है, हवी भी ब्रह्म है और ब्रह्मरूप कर्ताके द्वारा ब्रह्मरूप अग्निमें आहुति देनारूप क्रिया भी ब्रह्म है, (ऐसे यज्ञको करनेवाले) जिस मनुष्यकी ब्रह्ममें ही कर्म-समाधि हो गयी है, उसके द्वारा प्राप्त करनेयोग्य फल भी ब्रह्म ही है। ",
+    "english": "Brahman is the instrument with which to offer; Brahman is the oblation. By Brahman is the oblation offered into the fire of Brahman; Brahman alone is to be attained by one who meditates on Him in their works.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.25",
+    "mood": "happy",
+    "sanskrit": "दैवमेवापरे यज्ञं योगिनः पर्युपासते।\n\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति।।4.25।।\n ",
+    "hindi": "।।4.25।। अन्य योगीलोग भगवदर्पणरूप यज्ञका ही अनुष्ठान करते हैं और दूसरे योगीलोग ब्रह्मरूप अग्निमें विचाररूप यज्ञके द्वारा ही जीवात्मारूप यज्ञका हवन करते हैं। ",
+    "english": "Some yogis resort only to the sacrifice relating to gods; others offer sacrifice into the fire of Brahman solely through sacrifice.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.26",
+    "mood": "happy",
+    "sanskrit": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति।\n\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति।।4.26।।\n ",
+    "hindi": "।।4.26।। अन्य योगीलोग श्रोत्रादि समस्त इन्द्रियोंका संयमरूप अग्नियोंमें हवन किया करते हैं और दूसरे योगीलोग शब्दादि विषयोंका इन्द्रियरूप अग्नियोंमें हवन किया करते हैं। ",
+    "english": "Others offer as oblations hearing and other senses into the fires of restraint. Some others offer as oblations the objects of the senses, such as sound and the rest, into the fires of their senses.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.27",
+    "mood": "happy",
+    "sanskrit": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे।\n\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते।।4.27।।\n ",
+    "hindi": "।।4.27।। अन्य योगीलोग सम्पूर्ण इन्द्रियोंकी क्रियाओंको और प्राणोंकी क्रियाओंको ज्ञानसे प्रकाशित आत्मसंयमयोगरूप अग्निमें हवन किया करते हैं। ",
+    "english": "Some again offer as an oblation the functions of the senses and the activity of the vital breaths into the fire of the Yoga of restraint of the mind, kindled by knowledge.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.28",
+    "mood": "lonely",
+    "sanskrit": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे।\n\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः।।4.28।।\n ",
+    "hindi": "।।4.28।। दूसरे कितने ही तीक्ष्ण व्रत करनेवाले प्रयत्नशील साधक द्रव्य-सम्बन्धी यज्ञ करनेवाले हैं, और कितने ही तपोयज्ञ करनेवाले हैं, और दूसरे कितने ही योगयज्ञ करनेवाले हैं, तथा कितने ही स्वाध्यायरूप ज्ञानयज्ञ करनेवाले हैं। ",
+    "english": "Self-controlled and firm of resolve, others perform the sacrifice of material objects or austerities or yoga; while others offer their scriptural study and knowledge.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.29",
+    "mood": "happy",
+    "sanskrit": "अपाने जुह्वति प्राण प्राणेऽपानं तथाऽपरे।\n\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः।।4.29।।\n ",
+    "hindi": "।।4.29 -- 4.30।। दूसरे कितने ही प्राणायामके परायण हुए योगीलोग अपानमें प्राणका पूरक करके, प्राण और अपानकी गति रोककर फिर प्राणमें अपानका हवन करते हैं; तथा अन्य कितने ही नियमित आहार करनेवाले प्राणोंका प्राणोंमें हवन किया करते हैं। ये सभी साधक यज्ञोंद्वारा पापोंका नाश करनेवाले और यज्ञोंको जाननेवाले हैं।",
+    "english": "Others, with restricted diets, are devoted to the control of breath. Some sacrifice the inward breath in the outward breath; similarly, others sacrifice the outward breath in the inward breath. Some others, stopping the flow of both the inward and outward breaths, sacrifice the inward and outward breaths.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.30",
+    "mood": "happy",
+    "sanskrit": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति।\n\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः।।4.30।।\n ",
+    "hindi": "।।4.29 -- 4.30।। दूसरे कितने ही प्राणायामके परायण हुए योगीलोग अपानमें प्राणका पूरक करके, प्राण और अपानकी गति रोककर फिर प्राणमें अपानका हवन करते हैं; तथा अन्य कितने ही नियमित आहार करनेवाले प्राणोंका प्राणोंमें हवन किया करते हैं। ये सभी साधक यज्ञोंद्वारा पापोंका नाश करनेवाले और यज्ञोंको जाननेवाले हैं।\n ",
+    "english": "All these know the meaning of sacrifices, and through sacrifices, their sins are eradicated. Those who subsist on the ambrosial food, the remnants of sacrifices, go to eternal Brahman.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.31",
+    "mood": "happy",
+    "sanskrit": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्।\n\nनायं लोकोऽस्त्ययज्ञस्य कुतो़ऽन्यः कुरुसत्तम।।4.31।।\n ",
+    "hindi": "।।4.31।। हे कुरुवंशियोंमें श्रेष्ठ अर्जुन ! यज्ञसे बचे हुए अमृतका अनुभव करनेवाले सनातन परब्रह्म परमात्माको प्राप्त होते हैं। यज्ञ न करनेवाले मनुष्यके लिये यह मनुष्यलोक भी सुखदायक नहीं है, फिर परलोक कैसे सुखदायक होगा?",
+    "english": "This world is not for one who makes no sacrifice; how then for the other, O Arjuna?",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.32",
+    "mood": "lonely",
+    "sanskrit": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे।\n\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे।।4.32।।\n ",
+    "hindi": "।।4.32।। इस प्रकार और भी बहुत तरहके यज्ञ वेदकी वाणीमें विस्तारसे कहे गये हैं। उन सब यज्ञोंको तू कर्मजन्य जान। इस प्रकार जानकर यज्ञ करनेसे तू (कर्मबन्धनसे) मुक्त हो जायगा। ",
+    "english": "Thus, many forms of sacrifices have been spread out as means of reaching Brahman (individual self in its own nature). Know that all of these are born of actions. Knowing thus, you will be free.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.33",
+    "mood": "happy",
+    "sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप।\n\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते।।4.33।।\n ",
+    "hindi": "।।4.33।। हे परन्तप अर्जुन ! द्रव्यमय यज्ञसे ज्ञानयज्ञ श्रेष्ठ है। सम्पूर्ण कर्म और पदार्थ ज्ञान-(तत्त्वज्ञान-) में समाप्त हो जाते हैं। ",
+    "english": "The sacrifice of knowledge is superior to material sacrifice. O Arjuna, all actions and everything else culminate in knowledge.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.34",
+    "mood": "happy",
+    "sanskrit": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया।\n\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः।।4.34।।\n ",
+    "hindi": "।।4.34।। उस- (तत्त्वज्ञान-) को (तत्त्वदर्शी ज्ञानी महापुरुषोंके पास जाकर) समझ। उनको साष्टाङ्ग दण्डवत् प्रणाम करनेसे, उनकी सेवा करनेसे और सरलतापूर्वक प्रश्न करनेसे वे तत्त्वदर्शी ज्ञानी महापुरुष तुझे उस तत्त्वज्ञानका उपदेश देंगे। ",
+    "english": "Know this through prostration, questioning, and service. The wise who have realized the truth will instruct you in knowledge.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.35",
+    "mood": "lonely",
+    "sanskrit": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव।\n\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि।।4.35।।\n ",
+    "hindi": "।।4.35।। जिस- (तत्त्वज्ञान-) का अनुभव करनेके बाद तू फिर इस प्रकार मोहको नहीं प्राप्त होगा, और हे अर्जुन ! जिस- (तत्त्वज्ञान-) से तू सम्पूर्ण प्राणियोंको निःशेषभावसे पहले अपनेमें और उसके बाद मुझ सच्चिदानन्दघन परमात्मामें देखेगा।",
+    "english": "Knowing this, O Arjuna, you will not fall again into delusion in this way—by that knowledge, you will see all beings without exception in yourself and then in Me.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.36",
+    "mood": "lonely",
+    "sanskrit": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः।\n\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि।।4.36।।\n ",
+    "hindi": "।।4.36।। अगर तू सब पापियोंसे भी अधिक पापी है, तो भी तू ज्ञानरूपी नौकाके द्वारा निःसन्देह सम्पूर्ण पापसमुद्रसे अच्छी तरह तर जायगा। ",
+    "english": "Even if you are the most sinful of all sinners, you can cross over all sins by the boat of knowledge alone.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.37",
+    "mood": "happy",
+    "sanskrit": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन।\n\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा।।4.37।।\n ",
+    "hindi": "।।4.37।। हे अर्जुन ! जैसे प्रज्वलित अग्नि ईंधनोंको सर्वथा भस्म कर देती है, ऐसे ही ज्ञानरूपी अग्नि सम्पूर्ण कर्मोंको सर्वथा भस्म कर देती है। ",
+    "english": "Just as a burning fire turns fuel to ashes, O Arjuna, so does the fire of knowledge turn all karmas to ashes.",
+    "example": "Use positive energy to improve your actions."
+  },
+  {
+    "verse": "4.38",
+    "mood": "lonely",
+    "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।\n\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति।।4.38।।\n ",
+    "hindi": "।।4.38।। इस मनुष्यलोकमें ज्ञानके समान पवित्र करनेवाला निःसन्देह दूसरा कोई साधन नहीं है। जिसका योग भली-भाँति सिद्ध हो गया है, वह (कर्मयोगी) उस तत्त्वज्ञानको अवश्य ही स्वयं अपने-आपमें पा लेता है। ",
+    "english": "For there is no purifier equal to knowledge; he who is perfected in Karma Yoga finds this knowledge of his own accord in himself in due time.",
+    "example": "Strength comes from self-discipline."
+  },
+  {
+    "verse": "4.39",
+    "mood": "peace",
+    "sanskrit": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः।\n\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति।।4.39।।\n ",
+    "hindi": "।।4.39।। जो जितेन्द्रिय तथा साधन-परायण है, ऐसा श्रद्धावान् मनुष्य ज्ञानको प्राप्त होता है और ज्ञानको प्राप्त होकर वह तत्काल परम शान्तिको प्राप्त हो जाता है। ",
+    "english": "He who has faith, is intent on it, and has mastered his senses, attains knowledge. Having attained knowledge, he quickly goes to supreme peace.",
+    "example": "A calm mind creates clarity in decisions."
+  },
+  {
+    "verse": "4.40",
+    "mood": "happy",
+    "sanskrit": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति।\n\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः।।4.40।।\n ",
+    "hindi": "।।4.40।। विवेकहीन और श्रद्धारहित संशयात्मा मनुष्यका पतन हो जाता है। ऐसे संशयात्मा मनुष्यके लिये न यह लोक  है न परलोक है और न सुख ही है। ",
+    "english": "The ignorant, the faithless, and the doubting one perish; for the doubting one, there is neither this world nor the one beyond, nor happiness.",
+    "example": "Use positive energy to improve your actions."
+  }
+]
