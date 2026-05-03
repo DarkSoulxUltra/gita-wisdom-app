@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f1115">
     <title>Gita Mood-Based Wisdom</title>
+    <link rel="manifest" href="manifest.json">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Martel:wght@300;600&display=swap" rel="stylesheet">
     <style>
@@ -47,7 +49,7 @@
 
         header {
             text-align: center;
-            padding: 3rem 1rem 1.5rem;
+            padding: 2rem 1rem 1.5rem;
         }
 
         header h1 {
@@ -65,6 +67,25 @@
             margin: 0 auto;
         }
 
+        .daily-banner {
+            background: linear-gradient(90deg, #1e293b, #334155);
+            color: #f8fafc;
+            text-align: center;
+            padding: 0.8rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .daily-banner:hover {
+            background: linear-gradient(90deg, #334155, #475569);
+        }
+
         main {
             flex: 1;
             display: flex;
@@ -74,6 +95,63 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 1rem;
+        }
+
+        /* Search Bar */
+        .search-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem 0 2rem;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem 1.5rem 1rem 3rem;
+            border-radius: 30px;
+            border: 1px solid var(--border-color);
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-color);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #94a3b8;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+        }
+
+        .search-results {
+            position: absolute;
+            top: 110%;
+            left: 0;
+            width: 100%;
+            background: #1e293b;
+            border-radius: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 100;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            display: none;
+        }
+        
+        .search-item {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+        }
+        
+        .search-item:hover {
+            background: rgba(255,255,255,0.05);
         }
 
         /* Loading Overlay */
@@ -125,7 +203,6 @@
             flex-direction: column;
             align-items: center;
             gap: 0.5rem;
-            backdrop-filter: blur(10px);
         }
 
         .mood-btn:hover {
@@ -188,8 +265,9 @@
             position: relative;
             overflow: hidden;
             display: none;
-            margin-top: 2rem;
-            border-radius: 12px;
+            margin-top: 1rem;
+            border-radius: 8px;
+            perspective: 1000px;
         }
 
         .paper-strip {
@@ -197,16 +275,19 @@
             color: #1e293b;
             padding: 3rem 2rem 2rem;
             position: relative;
-            transform: translateY(100%);
+            /* Animation upgrades: Scale & opacity */
+            transform: translateY(100%) scale(0.9);
+            opacity: 0;
             box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
-            /* Jagged top edge */
-            clip-path: polygon(0% 20px, 5% 0px, 10% 20px, 15% 0px, 20% 20px, 25% 0px, 30% 20px, 35% 0px, 40% 20px, 45% 0px, 50% 20px, 55% 0px, 60% 20px, 65% 0px, 70% 20px, 75% 0px, 80% 20px, 85% 0px, 90% 20px, 95% 0px, 100% 20px, 100% 100%, 0% 100%);
-            transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+            /* Jagged top edge for paper tear effect */
+            clip-path: polygon(0% 12px, 2% 0px, 4% 15px, 6% 2px, 8% 18px, 10% 0px, 12% 14px, 14% 3px, 16% 17px, 18% 1px, 20% 15px, 22% 4px, 24% 19px, 26% 0px, 28% 13px, 30% 5px, 32% 16px, 34% 2px, 36% 18px, 38% 0px, 40% 14px, 42% 4px, 44% 17px, 46% 1px, 48% 15px, 50% 3px, 52% 19px, 54% 0px, 56% 13px, 58% 5px, 60% 16px, 62% 2px, 64% 18px, 66% 0px, 68% 14px, 70% 4px, 72% 17px, 74% 1px, 76% 15px, 78% 3px, 80% 19px, 82% 0px, 84% 13px, 86% 5px, 88% 16px, 90% 2px, 92% 18px, 94% 0px, 96% 14px, 98% 4px, 100% 12px, 100% 100%, 0% 100%);
+            transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s ease-in-out;
             border-bottom: 8px solid var(--strip-color, #fffaf0);
         }
 
         .paper-strip.show {
-            transform: translateY(0);
+            transform: translateY(0) scale(1);
+            opacity: 1;
         }
 
         .verse-number {
@@ -218,6 +299,26 @@
             color: #64748b;
             letter-spacing: 1px;
             border-bottom: 2px solid var(--strip-color);
+        }
+
+        /* Context Block */
+        .context-block {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: #64748b;
+            text-align: center;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(0,0,0,0.03);
+            border-radius: 8px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .context-block.show {
+            display: block;
+            opacity: 1;
         }
 
         .verse-content {
@@ -237,11 +338,21 @@
             background: rgba(0,0,0,0.03);
             padding: 1.5rem;
             border-left: 4px solid var(--strip-color);
-            font-style: italic;
-            font-size: 1.1rem;
-            color: #334155;
             margin-bottom: 2rem;
             border-radius: 0 8px 8px 0;
+        }
+
+        .verse-example .situation {
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .verse-example .insight {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #0f172a;
         }
 
         .strip-actions {
@@ -257,6 +368,7 @@
         .lang-toggles, .control-btns {
             display: flex;
             gap: 0.5rem;
+            flex-wrap: wrap;
         }
 
         .strip-btn {
@@ -269,6 +381,9 @@
             cursor: pointer;
             transition: all 0.2s;
             font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
         }
 
         .strip-btn:hover {
@@ -282,10 +397,9 @@
             border-color: #1e293b;
         }
 
-        .btn-icon {
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
+        .btn-icon svg {
+            width: 16px;
+            height: 16px;
         }
 
         /* Revisit & Analytics Section */
@@ -294,7 +408,7 @@
             display: grid;
             grid-template-columns: 1fr;
             gap: 2rem;
-            margin-top: 4rem;
+            margin-top: 2rem;
             padding-top: 2rem;
             border-top: 1px solid var(--border-color);
         }
@@ -310,6 +424,8 @@
             border: 1px solid var(--border-color);
             border-radius: 16px;
             padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
         }
 
         .panel h3 {
@@ -320,6 +436,38 @@
             justify-content: space-between;
         }
 
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            color: #64748b;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 0.5rem;
+            position: relative;
+        }
+
+        .tab-btn.active {
+            color: #f1f5f9;
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -0.6rem;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--mood-happy);
+        }
+
         .revisit-list {
             list-style: none;
             max-height: 300px;
@@ -327,13 +475,8 @@
             padding-right: 0.5rem;
         }
 
-        .revisit-list::-webkit-scrollbar {
-            width: 6px;
-        }
-        .revisit-list::-webkit-scrollbar-thumb {
-            background: var(--border-color);
-            border-radius: 3px;
-        }
+        .revisit-list::-webkit-scrollbar { width: 6px; }
+        .revisit-list::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
 
         .revisit-item {
             padding: 1rem;
@@ -344,15 +487,15 @@
             margin-bottom: 0.5rem;
         }
 
-        .revisit-item:hover {
-            background: rgba(255,255,255,0.05);
-        }
+        .revisit-item:hover { background: rgba(255,255,255,0.05); }
 
         .revisit-item .verse-ref {
             font-weight: bold;
             color: #94a3b8;
             font-size: 0.85rem;
             margin-bottom: 0.3rem;
+            display: flex;
+            justify-content: space-between;
         }
 
         .analytics-list {
@@ -360,6 +503,7 @@
             display: flex;
             flex-direction: column;
             gap: 0.8rem;
+            margin-bottom: 1rem;
         }
 
         .stat-item {
@@ -371,32 +515,21 @@
             border-radius: 8px;
         }
 
-        .stat-mood {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            text-transform: capitalize;
-        }
-
-        .stat-color {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-        }
-
-        .stat-count {
-            font-weight: bold;
-            background: var(--card-bg);
-            padding: 0.2rem 0.6rem;
-            border-radius: 12px;
-        }
+        .stat-mood { display: flex; align-items: center; gap: 0.5rem; text-transform: capitalize; }
+        .stat-color { width: 10px; height: 10px; border-radius: 50%; }
+        .stat-count { font-weight: bold; background: var(--card-bg); padding: 0.2rem 0.6rem; border-radius: 12px; }
         
-        .empty-state {
-            color: #64748b;
-            font-style: italic;
-            text-align: center;
-            padding: 2rem 0;
+        .smart-suggestion {
+            background: rgba(34, 197, 94, 0.1);
+            border-left: 4px solid var(--mood-happy);
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+            color: #94a3b8;
+            margin-top: auto;
         }
+
+        .empty-state { color: #64748b; font-style: italic; text-align: center; padding: 2rem 0; }
 
         .sync-container {
             margin-top: 1.5rem;
@@ -420,14 +553,16 @@
             gap: 0.4rem;
         }
         
-        .sync-btn:hover {
-            background: #1e293b;
-            color: #fff;
-        }
+        .sync-btn:hover { background: #1e293b; color: #fff; }
 
     </style>
 </head>
 <body>
+
+    <div class="daily-banner" id="daily-banner">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+        Open your Daily Gita Verse
+    </div>
 
     <div id="loader">
         <div class="spinner"></div>
@@ -439,10 +574,14 @@
     </header>
 
     <main>
+        <div class="search-container">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" class="search-input" id="search-input" placeholder="Search verses (e.g. anger, peace, 2.62)...">
+            <div class="search-results" id="search-results"></div>
+        </div>
+
         <section class="mood-container">
-            <div class="mood-grid" id="mood-grid">
-                <!-- Mood buttons injected here -->
-            </div>
+            <div class="mood-grid" id="mood-grid"></div>
         </section>
 
         <section class="action-container">
@@ -451,12 +590,18 @@
             <div class="strip-container" id="strip-container">
                 <div class="paper-strip" id="paper-strip">
                     <div class="verse-number" id="verse-number">1.1</div>
-                    <div class="verse-content" id="verse-content">
-                        <!-- Verse text goes here -->
-                    </div>
+                    
+                    <div class="context-block" id="prev-context"></div>
+                    
+                    <div class="verse-content" id="verse-content"></div>
+                    
+                    <div class="context-block" id="next-context"></div>
+                    
                     <div class="verse-example" id="verse-example">
-                        <!-- Example goes here -->
+                        <div class="situation" id="example-situation"></div>
+                        <div class="insight" id="example-insight"></div>
                     </div>
+
                     <div class="strip-actions">
                         <div class="lang-toggles">
                             <button class="strip-btn" data-lang="sanskrit">Sanskrit</button>
@@ -464,11 +609,17 @@
                             <button class="strip-btn active" data-lang="english">English</button>
                         </div>
                         <div class="control-btns">
+                            <button class="strip-btn btn-icon" id="context-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h7"></path></svg> Context
+                            </button>
                             <button class="strip-btn btn-icon" id="speak-btn">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg> Speak
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg> Speak
+                            </button>
+                            <button class="strip-btn btn-icon" id="fav-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                             </button>
                             <button class="strip-btn btn-icon" id="mark-read-btn">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg> Mark Read
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg> Read
                             </button>
                         </div>
                     </div>
@@ -478,23 +629,21 @@
 
         <section class="bottom-section">
             <div class="panel">
-                <h3>Revisit Quotes <span id="revisit-count" style="font-size: 0.9rem; color: #64748b;">(0)</span></h3>
+                <div class="tabs">
+                    <button class="tab-btn active" id="tab-revisit">Revisit (<span id="revisit-count">0</span>)</button>
+                    <button class="tab-btn" id="tab-fav">Favorites (<span id="fav-count">0</span>)</button>
+                </div>
                 <ul class="revisit-list" id="revisit-list">
                     <div class="empty-state">No quotes saved yet.</div>
                 </ul>
             </div>
             <div class="panel">
                 <h3>Mood Analytics</h3>
-                <ul class="analytics-list" id="analytics-list">
-                    <!-- Stats injected here -->
-                </ul>
+                <ul class="analytics-list" id="analytics-list"></ul>
+                <div class="smart-suggestion" id="smart-suggestion" style="display:none;"></div>
                 <div class="sync-container">
-                    <button class="sync-btn" id="export-btn">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Export
-                    </button>
-                    <button class="sync-btn" id="import-btn">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg> Import
-                    </button>
+                    <button class="sync-btn" id="export-btn">Export</button>
+                    <button class="sync-btn" id="import-btn">Import</button>
                 </div>
             </div>
         </section>
@@ -502,55 +651,44 @@
 
     <script>
         const MOODS = {
-            happy: { color: '#22c55e' },
-            anger: { color: '#ef4444' },
-            sad: { color: '#06b6d4' },
-            peace: { color: '#d946ef' },
-            lazy: { color: '#eab308' },
-            lonely: { color: '#a855f7' },
-            protection: { color: '#f97316' },
-            anxiety: { color: '#ffbba6' }
+            happy: { color: '#22c55e' }, anger: { color: '#ef4444' }, sad: { color: '#06b6d4' },
+            peace: { color: '#d946ef' }, lazy: { color: '#eab308' }, lonely: { color: '#a855f7' },
+            protection: { color: '#f97316' }, anxiety: { color: '#ffbba6' }
         };
 
-        // App State
+        // State
         let allVerses = [];
         let unreadVerses = [];
         let readVerses = JSON.parse(localStorage.getItem('gita_read_verses')) || [];
+        let favorites = JSON.parse(localStorage.getItem('gita_favorites')) || [];
         let moodAnalytics = JSON.parse(localStorage.getItem('gita_mood_analytics')) || {};
+        let dailyDate = localStorage.getItem('gita_daily_date');
+        let dailyVerseId = localStorage.getItem('gita_daily_verse');
         let selectedMood = null;
         let currentQuote = null;
         let currentLang = 'english';
         let isSpeaking = false;
+        let showingContext = false;
+        let currentTab = 'revisit'; // 'revisit' or 'fav'
 
-        // Initialize Moods in Analytics
-        Object.keys(MOODS).forEach(m => {
-            if (moodAnalytics[m] === undefined) moodAnalytics[m] = 0;
-        });
+        // Init Analytics
+        Object.keys(MOODS).forEach(m => { if (moodAnalytics[m] === undefined) moodAnalytics[m] = 0; });
 
-        // DOM Elements
+        // DOM
         const loader = document.getElementById('loader');
-        const moodGrid = document.getElementById('mood-grid');
-        const pullBtn = document.getElementById('pull-btn');
-        const stripContainer = document.getElementById('strip-container');
         const paperStrip = document.getElementById('paper-strip');
-        const verseNumberEl = document.getElementById('verse-number');
-        const verseContentEl = document.getElementById('verse-content');
-        const verseExampleEl = document.getElementById('verse-example');
-        const langBtns = document.querySelectorAll('.lang-toggles .strip-btn');
-        const speakBtn = document.getElementById('speak-btn');
-        const markReadBtn = document.getElementById('mark-read-btn');
-        const revisitList = document.getElementById('revisit-list');
-        const analyticsList = document.getElementById('analytics-list');
-        const revisitCount = document.getElementById('revisit-count');
-        const exportBtn = document.getElementById('export-btn');
-        const importBtn = document.getElementById('import-btn');
-
-        // Init App
+        const stripContainer = document.getElementById('strip-container');
+        const pullBtn = document.getElementById('pull-btn');
+        const searchInput = document.getElementById('search-input');
+        const searchResults = document.getElementById('search-results');
+        const dailyBanner = document.getElementById('daily-banner');
+        
         async function init() {
             renderMoodButtons();
-            renderAnalytics();
-            renderRevisitList();
             await fetchAllVerses();
+            renderAnalytics();
+            renderList();
+            checkDaily();
             loader.style.opacity = '0';
             setTimeout(() => loader.style.display = 'none', 500);
         }
@@ -559,244 +697,375 @@
             try {
                 const promises = [];
                 for (let i = 1; i <= 7; i++) {
-                    // Try fetching from local directory, fallback might be needed but assuming server serves them
-                    promises.push(fetch(`gita_part${i}.json`).then(r => r.json()).catch(e => {
-                        console.error(`Failed to load part ${i}`, e);
-                        return [];
-                    }));
+                    promises.push(fetch(`gita_part${i}.json`).then(r => r.json()).catch(e => []));
                 }
                 const results = await Promise.all(promises);
                 allVerses = results.flat();
                 
-                // Filter out already read verses from available pool
+                // Migrate old string examples if any exist in local storage to prevent errors
+                readVerses.forEach(v => {
+                    if(typeof v.example === 'string') {
+                        v.example = { situation: "Legacy entry", insight: v.example };
+                    }
+                });
+                favorites.forEach(v => {
+                    if(typeof v.example === 'string') {
+                        v.example = { situation: "Legacy entry", insight: v.example };
+                    }
+                });
+
                 const readIds = new Set(readVerses.map(v => v.verse));
                 unreadVerses = allVerses.filter(v => !readIds.has(v.verse));
-                console.log(`Loaded ${allVerses.length} verses. Unread: ${unreadVerses.length}`);
-            } catch (err) {
-                console.error("Error loading verses:", err);
-                alert("Could not load verses data.");
+            } catch (err) { console.error(err); }
+        }
+
+        // Daily Logic
+        function checkDaily() {
+            const today = new Date().toDateString();
+            if (dailyDate !== today || !dailyVerseId) {
+                // New day, assign new verse
+                const randomV = allVerses[Math.floor(Math.random() * allVerses.length)];
+                dailyVerseId = randomV.verse;
+                dailyDate = today;
+                localStorage.setItem('gita_daily_date', dailyDate);
+                localStorage.setItem('gita_daily_verse', dailyVerseId);
             }
         }
 
+        dailyBanner.addEventListener('click', () => {
+            const verse = allVerses.find(v => v.verse === dailyVerseId);
+            if(verse) {
+                currentQuote = verse;
+                document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+                selectedMood = null;
+                pullBtn.style.display = 'none';
+                displayQuote();
+            }
+        });
+
+        // Search Logic
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase().trim();
+            if (term.length < 2) {
+                searchResults.style.display = 'none';
+                return;
+            }
+            
+            const results = allVerses.filter(v => 
+                v.verse.includes(term) || 
+                v.english.toLowerCase().includes(term) ||
+                v.mood.includes(term)
+            ).slice(0, 5); // top 5
+            
+            if (results.length > 0) {
+                searchResults.innerHTML = '';
+                results.forEach(r => {
+                    const div = document.createElement('div');
+                    div.className = 'search-item';
+                    div.innerHTML = `<strong>${r.verse}</strong> - ${r.english.substring(0, 40)}...`;
+                    div.onclick = () => {
+                        currentQuote = r;
+                        searchResults.style.display = 'none';
+                        searchInput.value = '';
+                        displayQuote();
+                    };
+                    searchResults.appendChild(div);
+                });
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.innerHTML = '<div class="search-item">No results found</div>';
+                searchResults.style.display = 'block';
+            }
+        });
+        
+        document.addEventListener('click', (e) => {
+            if(!e.target.closest('.search-container')) searchResults.style.display = 'none';
+        });
+
+        // Audio Synth
+        function playPullSound() {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            if (!AudioContext) return;
+            const ctx = new AudioContext();
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(400, ctx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.2);
+            gain.gain.setValueAtTime(0, ctx.currentTime);
+            gain.gain.linearRampToValueAtTime(0.5, ctx.currentTime + 0.05);
+            gain.gain.linearRampToValueAtTime(0, ctx.currentTime + 0.2);
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start();
+            osc.stop(ctx.currentTime + 0.2);
+        }
+
+        // Pulling Logic
         function renderMoodButtons() {
-            moodGrid.innerHTML = '';
+            const grid = document.getElementById('mood-grid');
+            grid.innerHTML = '';
             Object.entries(MOODS).forEach(([mood, data]) => {
                 const btn = document.createElement('button');
                 btn.className = 'mood-btn';
-                btn.dataset.mood = mood;
                 btn.style.setProperty('--btn-color', data.color);
                 btn.innerHTML = `<span>${mood}</span>`;
-                
-                btn.addEventListener('click', () => {
+                btn.onclick = () => {
                     document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
                     selectedMood = mood;
                     pullBtn.style.display = 'block';
-                    // Hide strip if showing
                     if(paperStrip.classList.contains('show')) {
                         paperStrip.classList.remove('show');
                         setTimeout(() => stripContainer.style.display = 'none', 500);
                     }
-                });
-                
-                moodGrid.appendChild(btn);
+                };
+                grid.appendChild(btn);
             });
         }
 
-        function pullStrip() {
+        pullBtn.addEventListener('click', () => {
             if (!selectedMood) return;
-
-            // Stop any ongoing speech
             window.speechSynthesis.cancel();
             isSpeaking = false;
+            
+            playPullSound();
 
-            // Increment Analytics
             moodAnalytics[selectedMood]++;
-            saveAnalytics();
+            localStorage.setItem('gita_mood_analytics', JSON.stringify(moodAnalytics));
             renderAnalytics();
 
-            // Find a quote for the mood
             let pool = unreadVerses.filter(v => v.mood === selectedMood);
-            
-            if (pool.length === 0) {
-                // If all quotes for this mood are read, use allVerses as fallback pool
-                pool = allVerses.filter(v => v.mood === selectedMood);
-                if (pool.length === 0) {
-                    alert("No quotes found for this mood!");
-                    return;
-                }
-            }
+            if (pool.length === 0) pool = allVerses.filter(v => v.mood === selectedMood);
+            if (pool.length === 0) return alert("No quotes found.");
 
-            const randomIndex = Math.floor(Math.random() * pool.length);
-            currentQuote = pool[randomIndex];
-
+            currentQuote = pool[Math.floor(Math.random() * pool.length)];
             displayQuote();
-        }
+        });
 
         function displayQuote() {
             stripContainer.style.display = 'block';
+            showingContext = false;
+            document.getElementById('prev-context').classList.remove('show');
+            document.getElementById('next-context').classList.remove('show');
             
-            // Set styles based on mood
             paperStrip.style.setProperty('--strip-color', MOODS[currentQuote.mood].color);
+            document.getElementById('verse-number').textContent = `Ch ${currentQuote.verse}`;
             
-            verseNumberEl.textContent = `Ch ${currentQuote.verse}`;
-            verseExampleEl.textContent = currentQuote.example;
-            
-            // Default to English on new pull
+            const ex = currentQuote.example;
+            if(ex && ex.situation) {
+                document.getElementById('example-situation').textContent = "📌 Situation: " + ex.situation;
+                document.getElementById('example-insight').textContent = "💡 Insight: " + ex.insight;
+            } else {
+                document.getElementById('example-situation').textContent = "";
+                document.getElementById('example-insight').textContent = ex; // fallback
+            }
+
             updateLanguageDisplay();
+            updateFavReadBtns();
 
-            // Check if already in revisit
-            const isRead = readVerses.some(v => v.verse === currentQuote.verse);
-            markReadBtn.style.display = isRead ? 'none' : 'flex';
-
-            // Animation
-            setTimeout(() => {
-                paperStrip.classList.add('show');
-                // Haptic feedback if supported
-                if (navigator.vibrate) navigator.vibrate(50);
-            }, 50);
+            setTimeout(() => paperStrip.classList.add('show'), 50);
         }
 
         function updateLanguageDisplay() {
-            langBtns.forEach(btn => {
-                if (btn.dataset.lang === currentLang) btn.classList.add('active');
-                else btn.classList.remove('active');
+            document.querySelectorAll('.lang-toggles .strip-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === currentLang);
             });
+            const vContent = document.getElementById('verse-content');
+            vContent.textContent = currentQuote[currentLang];
+            vContent.style.fontFamily = (currentLang === 'english') ? "'Inter', sans-serif" : "'Martel', serif";
+        }
+
+        document.querySelectorAll('.lang-toggles .strip-btn').forEach(btn => {
+            btn.onclick = () => { currentLang = btn.dataset.lang; updateLanguageDisplay(); };
+        });
+
+        function updateFavReadBtns() {
+            const isRead = readVerses.some(v => v.verse === currentQuote.verse);
+            document.getElementById('mark-read-btn').style.display = isRead ? 'none' : 'flex';
             
-            // Update text based on language and apply font changes for Sanskrit/Hindi
-            verseContentEl.textContent = currentQuote[currentLang];
-            
-            if (currentLang === 'sanskrit' || currentLang === 'hindi') {
-                verseContentEl.style.fontFamily = "'Martel', serif";
+            const isFav = favorites.some(v => v.verse === currentQuote.verse);
+            const favBtn = document.getElementById('fav-btn');
+            if(isFav) {
+                favBtn.classList.add('active');
+                favBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`;
             } else {
-                verseContentEl.style.fontFamily = "'Inter', sans-serif";
+                favBtn.classList.remove('active');
+                favBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`;
             }
         }
 
-        // Language Buttons
-        langBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                currentLang = btn.dataset.lang;
-                updateLanguageDisplay();
-            });
-        });
+        // Feature Actions
+        document.getElementById('mark-read-btn').onclick = () => {
+            if (!currentQuote) return;
+            readVerses.unshift(currentQuote);
+            localStorage.setItem('gita_read_verses', JSON.stringify(readVerses));
+            unreadVerses = unreadVerses.filter(v => v.verse !== currentQuote.verse);
+            updateFavReadBtns();
+            if(currentTab === 'revisit') renderList();
+        };
 
-        // Speech Synthesis
-        speakBtn.addEventListener('click', () => {
+        document.getElementById('fav-btn').onclick = () => {
+            if (!currentQuote) return;
+            const isFav = favorites.some(v => v.verse === currentQuote.verse);
+            if(isFav) {
+                favorites = favorites.filter(v => v.verse !== currentQuote.verse);
+            } else {
+                favorites.unshift(currentQuote);
+            }
+            localStorage.setItem('gita_favorites', JSON.stringify(favorites));
+            updateFavReadBtns();
+            if(currentTab === 'fav') renderList();
+        };
+
+        // Context Mode
+        document.getElementById('context-btn').onclick = () => {
+            if(!currentQuote) return;
+            showingContext = !showingContext;
+            const pCtx = document.getElementById('prev-context');
+            const nCtx = document.getElementById('next-context');
+            
+            if(showingContext) {
+                const idx = allVerses.findIndex(v => v.verse === currentQuote.verse);
+                if(idx > 0) pCtx.textContent = `[${allVerses[idx-1].verse}] ${allVerses[idx-1][currentLang].substring(0,60)}...`;
+                else pCtx.textContent = "Start of text";
+                
+                if(idx < allVerses.length - 1) nCtx.textContent = `[${allVerses[idx+1].verse}] ${allVerses[idx+1][currentLang].substring(0,60)}...`;
+                else nCtx.textContent = "End of text";
+                
+                pCtx.classList.add('show');
+                nCtx.classList.add('show');
+            } else {
+                pCtx.classList.remove('show');
+                nCtx.classList.remove('show');
+            }
+        };
+
+        // Speech sequence
+        document.getElementById('speak-btn').onclick = () => {
+            const btn = document.getElementById('speak-btn');
             if (isSpeaking) {
                 window.speechSynthesis.cancel();
                 isSpeaking = false;
-                speakBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg> Speak`;
+                btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg> Speak`;
                 return;
             }
 
-            const text = currentQuote[currentLang];
-            const utterance = new SpeechSynthesisUtterance(text);
+            const verseText = currentQuote[currentLang];
+            const ex = currentQuote.example;
+            const insightText = ex.insight || ex;
             
-            if (currentLang === 'english') {
-                utterance.lang = 'en-IN';
-            } else {
-                utterance.lang = 'hi-IN'; // Fallback for Sanskrit
-            }
+            const u1 = new SpeechSynthesisUtterance(verseText);
+            const u2 = new SpeechSynthesisUtterance("Takeaway. " + insightText);
             
-            utterance.rate = 0.8; // Slower for clarity
+            const langCode = (currentLang === 'english') ? 'en-IN' : 'hi-IN';
+            u1.lang = langCode; u2.lang = 'en-IN';
+            u1.rate = 0.8; u2.rate = 0.9;
             
-            utterance.onend = () => {
+            u1.onend = () => {
+                if(!isSpeaking) return;
+                setTimeout(() => window.speechSynthesis.speak(u2), 1000); // 1s pause
+            };
+            
+            u2.onend = () => {
                 isSpeaking = false;
-                speakBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg> Speak`;
+                btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg> Speak`;
             };
 
-            window.speechSynthesis.speak(utterance);
+            window.speechSynthesis.speak(u1);
             isSpeaking = true;
-            speakBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg> Stop`;
-        });
+            btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg> Stop`;
+        };
 
-        // Mark as Read
-        markReadBtn.addEventListener('click', () => {
-            if (!currentQuote) return;
-            
-            readVerses.unshift(currentQuote); // Add to top
-            localStorage.setItem('gita_read_verses', JSON.stringify(readVerses));
-            
-            // Remove from unread
-            unreadVerses = unreadVerses.filter(v => v.verse !== currentQuote.verse);
-            
-            markReadBtn.style.display = 'none';
-            renderRevisitList();
-        });
+        // Tabs
+        document.getElementById('tab-revisit').onclick = () => { currentTab = 'revisit'; document.getElementById('tab-revisit').classList.add('active'); document.getElementById('tab-fav').classList.remove('active'); renderList(); };
+        document.getElementById('tab-fav').onclick = () => { currentTab = 'fav'; document.getElementById('tab-fav').classList.add('active'); document.getElementById('tab-revisit').classList.remove('active'); renderList(); };
 
-        function renderRevisitList() {
-            revisitCount.textContent = `(${readVerses.length})`;
+        function renderList() {
+            const listEl = document.getElementById('revisit-list');
+            document.getElementById('revisit-count').textContent = readVerses.length;
+            document.getElementById('fav-count').textContent = favorites.length;
             
-            if (readVerses.length === 0) {
-                revisitList.innerHTML = '<div class="empty-state">No quotes saved yet.</div>';
+            const data = currentTab === 'revisit' ? readVerses : favorites;
+            
+            if (data.length === 0) {
+                listEl.innerHTML = `<div class="empty-state">No quotes saved yet.</div>`;
                 return;
             }
             
-            revisitList.innerHTML = '';
-            readVerses.forEach(quote => {
+            listEl.innerHTML = '';
+            data.forEach(quote => {
                 const li = document.createElement('li');
                 li.className = 'revisit-item';
                 li.innerHTML = `
-                    <div class="verse-ref">Chapter ${quote.verse} <span style="color:${MOODS[quote.mood].color}">• ${quote.mood}</span></div>
+                    <div class="verse-ref">
+                        <span>Ch ${quote.verse} <span style="color:${MOODS[quote.mood].color}">• ${quote.mood}</span></span>
+                        ${currentTab === 'fav' ? '⭐' : ''}
+                    </div>
                     <div style="font-size: 0.95rem">${quote.english.substring(0, 60)}...</div>
                 `;
-                li.addEventListener('click', () => {
+                li.onclick = () => {
                     currentQuote = quote;
-                    // Switch to paper strip view
                     window.scrollTo({top: 0, behavior: 'smooth'});
                     displayQuote();
-                });
-                revisitList.appendChild(li);
+                };
+                listEl.appendChild(li);
             });
         }
 
+        // Smart Analytics
         function renderAnalytics() {
-            analyticsList.innerHTML = '';
+            const listEl = document.getElementById('analytics-list');
+            listEl.innerHTML = '';
             
-            // Sort by count descending
             const sorted = Object.entries(moodAnalytics).sort((a,b) => b[1] - a[1]);
+            let total = 0;
             
             sorted.forEach(([mood, count]) => {
-                if(count === 0) return; // Only show moods with >0 pulls
-                
+                total += count;
+                if(count === 0) return;
                 const li = document.createElement('li');
                 li.className = 'stat-item';
                 li.innerHTML = `
-                    <div class="stat-mood">
-                        <div class="stat-color" style="background-color: ${MOODS[mood].color}"></div>
-                        ${mood}
-                    </div>
+                    <div class="stat-mood"><div class="stat-color" style="background-color: ${MOODS[mood].color}"></div>${mood}</div>
                     <div class="stat-count">${count}</div>
                 `;
-                analyticsList.appendChild(li);
+                listEl.appendChild(li);
             });
 
-            if (Object.values(moodAnalytics).every(v => v === 0)) {
-                analyticsList.innerHTML = '<div class="empty-state">No moods selected yet.</div>';
+            if (total === 0) {
+                listEl.innerHTML = '<div class="empty-state">No moods selected yet.</div>';
+                return;
             }
+
+            // Smart Suggestion
+            const topMood = sorted[0][0];
+            const hour = new Date().getHours();
+            const timeStr = (hour >= 18 || hour < 5) ? "night" : "day";
+            
+            let suggestion = "";
+            if (topMood === 'anxiety') suggestion = "You seem anxious recently. Try exploring Peace or Protection verses.";
+            else if (topMood === 'sad') suggestion = "You've been pulling Sad quotes. Remember, tough times are temporary.";
+            else if (topMood === 'lazy') suggestion = "Feeling lazy? A Protection or Anger verse might spark some energy!";
+            else suggestion = `You're exploring ${topMood} heavily during the ${timeStr}. Keep seeking wisdom.`;
+
+            const suggEl = document.getElementById('smart-suggestion');
+            suggEl.style.display = 'block';
+            suggEl.innerHTML = `<strong>Insight:</strong> ${suggestion}`;
         }
 
-        function saveAnalytics() {
-            localStorage.setItem('gita_mood_analytics', JSON.stringify(moodAnalytics));
-        }
-
-        // Cross-device sync via JSON
-        exportBtn.addEventListener('click', () => {
-            const data = { readVerses, moodAnalytics };
+        // Sync
+        document.getElementById('export-btn').onclick = () => {
+            const data = { readVerses, favorites, moodAnalytics };
             const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
-            const downloadAnchorNode = document.createElement('a');
-            downloadAnchorNode.setAttribute("href", dataStr);
-            downloadAnchorNode.setAttribute("download", "gita_app_sync.json");
-            document.body.appendChild(downloadAnchorNode);
-            downloadAnchorNode.click();
-            downloadAnchorNode.remove();
-        });
+            const node = document.createElement('a');
+            node.setAttribute("href", dataStr); node.setAttribute("download", "gita_sync.json");
+            document.body.appendChild(node); node.click(); node.remove();
+        };
 
-        importBtn.addEventListener('click', () => {
+        document.getElementById('import-btn').onclick = () => {
             const input = document.createElement('input');
-            input.type = 'file';
-            input.accept = 'application/json';
+            input.type = 'file'; input.accept = 'application/json';
             input.onchange = e => {
                 const file = e.target.files[0];
                 if (!file) return;
@@ -804,28 +1073,18 @@
                 reader.onload = event => {
                     try {
                         const data = JSON.parse(event.target.result);
-                        if (data.readVerses && data.moodAnalytics) {
-                            localStorage.setItem('gita_read_verses', JSON.stringify(data.readVerses));
-                            localStorage.setItem('gita_mood_analytics', JSON.stringify(data.moodAnalytics));
-                            alert("Data imported successfully! The page will now reload.");
-                            location.reload();
-                        } else {
-                            alert("Invalid data format.");
-                        }
-                    } catch (err) {
-                        alert("Error reading file.");
-                    }
+                        if (data.readVerses) localStorage.setItem('gita_read_verses', JSON.stringify(data.readVerses));
+                        if (data.favorites) localStorage.setItem('gita_favorites', JSON.stringify(data.favorites));
+                        if (data.moodAnalytics) localStorage.setItem('gita_mood_analytics', JSON.stringify(data.moodAnalytics));
+                        alert("Data imported! Reloading..."); location.reload();
+                    } catch (err) { alert("Invalid file."); }
                 };
                 reader.readAsText(file);
             };
             input.click();
-        });
+        };
 
-        pullBtn.addEventListener('click', pullStrip);
-
-        // Start
         window.addEventListener('DOMContentLoaded', init);
-
     </script>
 </body>
 </html>
