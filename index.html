@@ -7,23 +7,24 @@
     <title>Gita Mood-Based Wisdom</title>
     <link rel="manifest" href="manifest.json">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Martel:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Martel:wght@300;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #0f1115;
-            --text-color: #f1f5f9;
+            --bg-color: #0b0f19;
+            --text-color: #f8fafc;
             --card-bg: rgba(255, 255, 255, 0.03);
-            --border-color: rgba(255, 255, 255, 0.1);
+            --card-bg-hover: rgba(255, 255, 255, 0.06);
+            --border-color: rgba(255, 255, 255, 0.08);
             
-            /* Mood Colors */
-            --mood-happy: #22c55e;
+            /* Mood Colors - More Vibrant */
+            --mood-happy: #10b981;
             --mood-anger: #ef4444;
-            --mood-sad: #06b6d4;
-            --mood-peace: #d946ef;
-            --mood-lazy: #eab308;
-            --mood-lonely: #a855f7;
+            --mood-sad: #3b82f6;
+            --mood-peace: #8b5cf6;
+            --mood-lazy: #f59e0b;
+            --mood-lonely: #ec4899;
             --mood-protection: #f97316;
-            --mood-anxiety: #ffbba6;
+            --mood-anxiety: #14b8a6;
         }
 
         * {
@@ -35,6 +36,10 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at top center, rgba(30, 41, 59, 0.5) 0%, transparent 60%),
+                radial-gradient(circle at bottom right, rgba(15, 23, 42, 0.8) 0%, transparent 50%);
+            background-attachment: fixed;
             color: var(--text-color);
             min-height: 100vh;
             display: flex;
@@ -43,18 +48,19 @@
         }
 
         h1, h2, h3 {
-            font-family: 'Martel', serif;
+            font-family: 'Outfit', sans-serif;
             font-weight: 600;
+            letter-spacing: -0.5px;
         }
 
         header {
             text-align: center;
-            padding: 2rem 1rem 1.5rem;
+            padding: 2.5rem 1rem 1.5rem;
         }
 
         header h1 {
-            font-size: 2.5rem;
-            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            font-size: 3rem;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 0.5rem;
@@ -135,23 +141,26 @@
             top: 110%;
             left: 0;
             width: 100%;
-            background: #1e293b;
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
             border-radius: 12px;
             max-height: 300px;
             overflow-y: auto;
             z-index: 100;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
             display: none;
         }
         
         .search-item {
-            padding: 1rem;
+            padding: 1rem 1.5rem;
             border-bottom: 1px solid var(--border-color);
             cursor: pointer;
+            transition: background 0.2s;
         }
         
         .search-item:hover {
-            background: rgba(255,255,255,0.05);
+            background: var(--card-bg-hover);
         }
 
         /* Loading Overlay */
@@ -207,13 +216,14 @@
 
         .mood-btn:hover {
             transform: translateY(-2px);
-            background: rgba(255,255,255,0.08);
+            background: var(--card-bg-hover);
+            border-color: rgba(255,255,255,0.2);
         }
 
         .mood-btn.active {
-            border-color: currentColor;
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 0 20px -5px currentColor;
+            border-color: var(--btn-color);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 0 20px -8px var(--btn-color);
         }
 
         .mood-btn::before {
@@ -271,18 +281,16 @@
         }
 
         .paper-strip {
-            background-color: #fffaf0;
-            color: #1e293b;
-            padding: 3rem 2rem 2rem;
+            background: linear-gradient(145deg, #ffffff, #f8fafc);
+            color: #0f172a;
+            padding: 3rem 2.5rem 2.5rem;
             position: relative;
-            /* Animation upgrades: Scale & opacity */
-            transform: translateY(100%) scale(0.9);
+            transform: translateY(30px) scale(0.95);
             opacity: 0;
-            box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
-            /* Jagged top edge for paper tear effect */
-            clip-path: polygon(0% 12px, 2% 0px, 4% 15px, 6% 2px, 8% 18px, 10% 0px, 12% 14px, 14% 3px, 16% 17px, 18% 1px, 20% 15px, 22% 4px, 24% 19px, 26% 0px, 28% 13px, 30% 5px, 32% 16px, 34% 2px, 36% 18px, 38% 0px, 40% 14px, 42% 4px, 44% 17px, 46% 1px, 48% 15px, 50% 3px, 52% 19px, 54% 0px, 56% 13px, 58% 5px, 60% 16px, 62% 2px, 64% 18px, 66% 0px, 68% 14px, 70% 4px, 72% 17px, 74% 1px, 76% 15px, 78% 3px, 80% 19px, 82% 0px, 84% 13px, 86% 5px, 88% 16px, 90% 2px, 92% 18px, 94% 0px, 96% 14px, 98% 4px, 100% 12px, 100% 100%, 0% 100%);
-            transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s ease-in-out;
-            border-bottom: 8px solid var(--strip-color, #fffaf0);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.1);
+            border-radius: 16px;
+            transition: all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border-bottom: 6px solid var(--strip-color, #fffaf0);
         }
 
         .paper-strip.show {
@@ -292,13 +300,16 @@
 
         .verse-number {
             position: absolute;
-            top: 2rem;
+            top: 1.5rem;
             right: 2rem;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            font-family: 'Outfit', sans-serif;
             font-weight: 700;
-            color: #64748b;
-            letter-spacing: 1px;
-            border-bottom: 2px solid var(--strip-color);
+            color: var(--strip-color, #64748b);
+            letter-spacing: 0.5px;
+            background: rgba(0,0,0,0.04);
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
         }
 
         /* Context Block */
@@ -421,11 +432,14 @@
 
         .panel {
             background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border: 1px solid var(--border-color);
-            border-radius: 16px;
+            border-radius: 20px;
             padding: 1.5rem;
             display: flex;
             flex-direction: column;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
         }
 
         .panel h3 {
@@ -603,6 +617,14 @@
                     </div>
 
                     <div class="strip-actions">
+                        <div class="seq-nav-btns" style="display: flex; gap: 0.5rem; width: 100%; justify-content: space-between; padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 1px dashed rgba(148, 163, 184, 0.3);">
+                            <button class="strip-btn btn-icon" id="prev-btn">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg> Prev
+                            </button>
+                            <button class="strip-btn btn-icon" id="next-btn">
+                                Next <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                        </div>
                         <div class="lang-toggles">
                             <button class="strip-btn" data-lang="sanskrit">Sanskrit</button>
                             <button class="strip-btn" data-lang="hindi">Hindi</button>
@@ -850,7 +872,15 @@
             document.getElementById('next-context').classList.remove('show');
             
             paperStrip.style.setProperty('--strip-color', MOODS[currentQuote.mood].color);
-            document.getElementById('verse-number').textContent = `Ch ${currentQuote.verse}`;
+            const verseParts = currentQuote.verse.split('.');
+            document.getElementById('verse-number').textContent = `Chapter ${verseParts[0]}, Verse ${verseParts[1]}`;
+            
+            // Disable nav buttons if at bounds
+            const idx = allVerses.findIndex(v => v.verse === currentQuote.verse);
+            document.getElementById('prev-btn').style.opacity = idx <= 0 ? '0.3' : '1';
+            document.getElementById('prev-btn').style.pointerEvents = idx <= 0 ? 'none' : 'auto';
+            document.getElementById('next-btn').style.opacity = idx >= allVerses.length - 1 ? '0.3' : '1';
+            document.getElementById('next-btn').style.pointerEvents = idx >= allVerses.length - 1 ? 'none' : 'auto';
             
             const ex = currentQuote.example;
             if(ex && ex.situation) {
@@ -896,6 +926,28 @@
         }
 
         // Feature Actions
+        document.getElementById('prev-btn').onclick = () => {
+            if(!currentQuote) return;
+            const idx = allVerses.findIndex(v => v.verse === currentQuote.verse);
+            if(idx > 0) {
+                currentQuote = allVerses[idx - 1];
+                window.speechSynthesis.cancel();
+                isSpeaking = false;
+                displayQuote();
+            }
+        };
+
+        document.getElementById('next-btn').onclick = () => {
+            if(!currentQuote) return;
+            const idx = allVerses.findIndex(v => v.verse === currentQuote.verse);
+            if(idx !== -1 && idx < allVerses.length - 1) {
+                currentQuote = allVerses[idx + 1];
+                window.speechSynthesis.cancel();
+                isSpeaking = false;
+                displayQuote();
+            }
+        };
+
         document.getElementById('mark-read-btn').onclick = () => {
             if (!currentQuote) return;
             readVerses.unshift(currentQuote);
@@ -999,7 +1051,7 @@
                 li.className = 'revisit-item';
                 li.innerHTML = `
                     <div class="verse-ref">
-                        <span>Ch ${quote.verse} <span style="color:${MOODS[quote.mood].color}">• ${quote.mood}</span></span>
+                        <span>BG ${quote.verse} <span style="color:${MOODS[quote.mood].color}">• ${quote.mood}</span></span>
                         ${currentTab === 'fav' ? '⭐' : ''}
                     </div>
                     <div style="font-size: 0.95rem">${quote.english.substring(0, 60)}...</div>
