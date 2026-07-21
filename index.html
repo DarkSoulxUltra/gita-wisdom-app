@@ -594,6 +594,12 @@
             <div class="search-results" id="search-results"></div>
         </div>
 
+        <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 1.5rem;">
+             <button id="start-reading-btn" style="background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); border: none; color: white; padding: 0.8rem 2rem; border-radius: 30px; font-weight: 600; cursor: pointer; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); font-size: 1rem; transition: transform 0.2s;">
+                 Read Sequentially from Beginning
+             </button>
+        </div>
+
         <section class="mood-container">
             <div class="mood-grid" id="mood-grid"></div>
         </section>
@@ -758,6 +764,16 @@
             const verse = allVerses.find(v => v.verse === dailyVerseId);
             if(verse) {
                 currentQuote = verse;
+                document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+                selectedMood = null;
+                pullBtn.style.display = 'none';
+                displayQuote();
+            }
+        });
+
+        document.getElementById('start-reading-btn').addEventListener('click', () => {
+            if(allVerses.length > 0) {
+                currentQuote = allVerses[0];
                 document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
                 selectedMood = null;
                 pullBtn.style.display = 'none';
